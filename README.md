@@ -14,6 +14,7 @@ as generally described on our main page, http://www.seti.org/ml4seti
   * [Awards & Prizes](awards_&_prizes)
   * [Teamwork](teamwork)
   * [Licensing](licensing)
+  * [FAQ](faq)
   * [Other Reading](other_reading)
 
 ## Project Details
@@ -163,12 +164,12 @@ channels for different analysis approaches so that you can easily communicate wi
 
 ### Analysis Ideas
 
-List of analysis ideas that may be useful:
+List of analysis ideas and concepts that may be useful:
 
   * "standard" machine-learning feature extraction (see [`ibmseti`](https://github.com/ibm-cds-labs/ibmseti))
   * Watson Visual Recognition
     * train Watson after using some kind of image filtering?
-  * Deep Learning with
+  * Deep Learning
     * on fourier-space representation 
     * on raw time-series
   * Wavelet decomposition
@@ -181,12 +182,21 @@ List of analysis ideas that may be useful:
 If you wish you contribute a separate idea to this list you can
 
   * issue a Pull Request to this repo
-  * talk to an organizer on our Slack team (`gadamc`, `gerryharp`, `jrseti`)
+  * talk to an organizer on our Slack team (`@gadamc` or `@gerryharp`)
 
 ## Licensing
 
 In order to participate in the code challenge and hackathon, your code must be open-source and licenced under 
 the Apache License 2.0. 
+
+## Frequently Asked Questions
+
+**Can I participate in the hackathon remotely?**
+
+Yes! We are looking to add livestreaming of the talks and to share any slides that are presented. 
+All material and information that you will need to do the work will be available online, of course. The
+code challenge will last from June through the end of July, which will mostly be done remotely. 
+
 
 ## Other Reading
 
