@@ -150,7 +150,7 @@ We are planning to judge the main code challenge entries by the following metric
 **Very Important!**  Your code entry must be capable of running in the SETI Institute's 
 IBM Spark enviornment, which will be used for final analysis using our large simulated data set. 
 
-Before the hackathon, we will have a better definition of how you will need to interface your winning code 
+Before the code challenge, we will have a better definition of how you will need to interface your code entry 
 to measure it's performance.
 
 ## Teamwork!
