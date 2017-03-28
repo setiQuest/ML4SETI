@@ -8,14 +8,14 @@ as generally described on our main page, http://www.seti.org/ml4seti
 
 ## Contents
 
-  * [Project Details](project_details)
-  * [Event Details & Registration](event_details_&_registration)
-      * [Hackathon Schedule](hackathon_schedule)
-  * [Awards & Prizes](awards_&_prizes)
-  * [Teamwork](teamwork)
-  * [Licensing](licensing)
-  * [FAQ](faq)
-  * [Other Reading](other_reading)
+  * [Project Details](#project_details)
+  * [Event Details & Registration](#event_details_&_registration)
+      * [Hackathon Schedule](#hackathon_schedule)
+  * [Awards & Prizes](#awards_&_prizes)
+  * [Teamwork](#teamwork)
+  * [Licensing](#licensing)
+  * [FAQ](#faq)
+  * [Other Reading](#other_reading)
 
 ## Project Details
 
