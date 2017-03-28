@@ -8,14 +8,14 @@ as generally described on our main page, http://www.seti.org/ml4seti
 
 ## Contents
 
-  * [Project Details](#project_details)
-  * [Event Details & Registration](#event_details_&_registration)
-      * [Hackathon Schedule](#hackathon_schedule)
-  * [Awards & Prizes](#awards_&_prizes)
+  * [Project Details](#project-details)
+  * [Event Details & Registration](#event-details--registration)
+      * [Hackathon Schedule](#hackathon-schedule)
+  * [Awards & Prizes](#awards--prizes)
   * [Teamwork](#teamwork)
   * [Licensing](#licensing)
-  * [FAQ](#faq)
-  * [Other Reading](#other_reading)
+  * [FAQ](#frequently-asked-questions)
+  * [Other Reading](#other-reading)
 
 ## Project Details
 
@@ -120,24 +120,25 @@ and we'll notify you as soon as they are ready!**
 We are excited to be able to offer some amazing and extremely unique prizes! 
 You will simply not find prizes like this anywhere else.
 
-### Top Code Challenge Prize
+### Code Challenge
 
-The top prize at the end of the code-challenge offered by the SETI Institute is a set of non-montetary awards.
+The prize for the best classifier submitted by the end of the code-challenge will be:
 
   * Installation of code at ATA data acquisition pipeline.
   * Tour of the ATA with SETI Institute scientists (up to 6 team members).
-  * Co-publication of results in scientific journal with SETI Inst. researchers.
-  * Assistance presenting work at SETI research conference or meetup in the SF Bay Area. 
+  * Co-authorship with SETI Institute researchers on a paper to be submitted in a peer-reviewed scientific journal
+  * Assistance presenting work at a SETI research conference or meetup in the SF Bay Area. 
 
 ### Hackathon Awards
 
-At the end of the hackathon, the judging panel will listen to brief presentations by any of the participating teams
+At the end of the hackathon, the judging panel will listen to brief presentations by participating teams
 and offer awards on the
 
-  * Most Surprising Analysis 
-  * Most Interesting Analysis
   * Most Accurate Analysis (you will present your own confusion matrix -- 
   we will not check results, so we rely on the honor system.)
+  * Most Interesting Analysis
+  * Most Surprising Analysis 
+  
 
 
 ### Code Challenge Judging
@@ -156,8 +157,8 @@ to measure it's performance.
 ## Teamwork!
 
 You will mostly likely need to form a team of 4 to 6 people in order to accomplish your goals in a timely manner. 
-To facilitate team-building, we have created a Slack team for communication. Additionally, we will add Slack 
-channels for different analysis approaches so that you can easily communicate with the entire community on ideas!
+To facilitate team-building, among other things, we have created a Slack team for communication. We will add Slack 
+channels for different analysis approaches so you can easily communicate with the entire community.
 
 [Sign up for the Slack team here.](https://ml4seti.mybluemix.net)
 
