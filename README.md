@@ -27,7 +27,7 @@ carrier waves. However, the detection system sometimes triggers on signals that 
 There seems to be various categories of these kinds of events that have been observed in the past. 
 
 Our goal is to classify these accurately in 
-real-time would allow the signal detection system to make better informed observational decisions, 
+real-time. This would allow the signal detection system to make better informed observational decisions, 
 increase the efficiency of the nightly scans, and allow for explicit detection of these other signal types. 
 
 The standard approach to SETI signal detection and classification is to transform the observed radio signals, which
