@@ -125,9 +125,8 @@ You will simply not find prizes like this anywhere else.
 The prize for the best classifier submitted by the end of the code-challenge will be:
 
   * Installation of code at ATA data acquisition pipeline.
-  * Tour of the ATA with SETI Institute scientists (up to 6 team members).
   * Co-authorship with SETI Institute researchers on a paper to be submitted in a peer-reviewed scientific journal
-  * Assistance presenting work at a SETI research conference or meetup in the SF Bay Area. 
+  * Assistance presenting work at a SETI research conference or meetup. 
 
 ### Hackathon Awards
 
@@ -136,9 +135,10 @@ and offer awards on the
 
   * Most Accurate Analysis (you will present your own confusion matrix -- 
   we will not check results, so we rely on the honor system.)
-  * Most Interesting Analysis
-  * Most Surprising Analysis 
-  
+    * Winner gets a tour of the ATA with SETI Institute scientists (up to 6 team members).
+  * Most Interesting / Surprising Analysis
+
+We are working on more awards and prizes for both the hackathon and code challenge.   
 
 
 ### Code Challenge Judging
@@ -148,17 +148,19 @@ We are planning to judge the main code challenge entries by the following metric
   * LogLoss function based on confusion matrix results
   * Speed of single-event classification (for real-time compatibilities)
 
-**Very Important!**  Your code entry must be capable of running in the SETI Institute's 
+**Very Important!**  Your code entry / model must be capable of running in the SETI Institute's 
 IBM Spark enviornment, which will be used for final analysis using our large simulated data set. 
+We'll work with you to port your model to our system. 
 
 Before the code challenge, we will have a better definition of how you will need to interface your code entry 
 to measure it's performance.
 
 ## Teamwork!
 
-You will mostly likely need to form a team of 4 to 6 people in order to accomplish your goals in a timely manner. 
-To facilitate team-building, among other things, we have created a Slack team for communication. We will add Slack 
-channels for different analysis approaches so you can easily communicate with the entire community.
+You will mostly likely need to form a team of 4 to 6 people in order to accomplish your goals in a 
+timely manner. To facilitate team-building, among other things, we have created a Slack team for 
+communication. We will add Slack channels for different analysis approaches so you can easily 
+communicate with the entire community.
 
 [Sign up for the Slack team here.](https://ml4seti.mybluemix.net)
 
@@ -169,14 +171,17 @@ List of analysis ideas and concepts that may be useful:
 
   * "standard" machine-learning feature extraction (see [`ibmseti`](https://github.com/ibm-cds-labs/ibmseti))
   * Watson Visual Recognition
-    * train Watson after using some kind of image filtering?
-  * Deep Learning
+    * train Watson after using some kind of image filtering.
+  * Deep Learning (DNN, CNN)
     * on fourier-space representation 
     * on raw time-series
+  * Priciple Component Analysis
+  * Decision Tree
+  * Support Vector Machines
+  * k-Nearest Neighbors
   * Wavelet decomposition
   * De-chirping
   * KTL transform
-  * Combinations of the above!
 
 
 
