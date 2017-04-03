@@ -176,6 +176,7 @@ List of analysis ideas and concepts that may be useful:
   * Deep Learning (DNN, CNN)
     * on fourier-space representation 
     * on raw time-series
+    * [Basic Deep Learning tutorial](https://apsportal.ibm.com/exchange/public/entry/view/efb51900cc9d687fb9f05b2eabb66cb5)
   * [Deep Forest](https://arxiv.org/abs/1702.08835)
   * Priciple Component Analysis
   * Decision Tree
