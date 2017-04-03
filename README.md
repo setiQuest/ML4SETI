@@ -13,6 +13,7 @@ as generally described on our main page, http://www.seti.org/ml4seti
       * [Hackathon Schedule](#hackathon-schedule)
   * [Awards & Prizes](#awards--prizes)
   * [Teamwork](#teamwork)
+      * [Click here to up for Slack Team](https://ml4seti.mybluemix.net)
   * [Licensing](#licensing)
   * [FAQ](#frequently-asked-questions)
   * [Other Reading](#other-reading)
