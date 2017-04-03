@@ -200,9 +200,12 @@ the Apache License 2.0.
 
 **Can I participate in the hackathon remotely?**
 
-Yes! We are looking to add livestreaming of the talks and to share any slides that are presented. 
-All material and information that you will need to do the work will be available online, of course. The
-code challenge will last from June through the end of July, which will mostly be done remotely. 
+We are hoping to livestreaming the talks and to share any slides that are presented. In this way, you
+can partially observe what is happening during the hackathon.
+All material and information that you will need to do the work will be available online, of course. You
+can participate with teams at the hackathon (and communicate wit your team via Slack). 
+However, we cannot ship any prizes or give-aways to teams that are entirely
+remote and we cannot support presentations of work for remote teams. 
 
 
 ## Other Reading
