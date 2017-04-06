@@ -12,6 +12,7 @@ as generally described on our main page, http://www.seti.org/ml4seti
   * [Event Details & Registration](#event-details--registration)
       * [Hackathon Schedule](#hackathon-schedule)
   * [Awards & Prizes](#awards--prizes)
+      * [Trophies!](#trophies)
   * [Teamwork](#teamwork)
       * [Click here to up for Slack Team](https://ml4seti.mybluemix.net)
   * [Licensing](#licensing)
@@ -141,6 +142,12 @@ and offer awards on the
 
 We are working on more awards and prizes for both the hackathon and code challenge.   
 
+#### Trophies!
+
+Dr. Gerry Harp and one of his friends have managed to cut apart some old antenna and fashion them into 
+some really cool trophies that will be handed out as awards at the hackathon.
+
+![Hackathon Trophy](img/trophy.png "Hackathon Trophy built from old antenna.")
 
 ### Code Challenge Judging
 
@@ -202,12 +209,13 @@ the Apache License 2.0.
 
 **Can I participate in the hackathon remotely?**
 
-We are hoping to livestreaming the talks and to share any slides that are presented. In this way, you
+We are hoping to live-stream the talks and to share any slides that are presented. In this way, you
 can partially observe what is happening during the hackathon.
 All material and information that you will need to do the work will be available online, of course. You
-can participate with teams at the hackathon (and communicate wit your team via Slack). 
-However, we cannot ship any prizes or give-aways to teams that are entirely
-remote and we cannot support presentations of work for remote teams. 
+can participate with teams at the hackathon (and communicate with your team via Slack). 
+However, we cannot ship any prizes or event swag to participants that are 
+remote and we cannot support presentations of work for remote teams. At least one team member must be at
+the hackathon in order to present your work and win a prize. 
 
 
 ## Other Reading
