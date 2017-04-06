@@ -56,14 +56,14 @@ page is on a log-scale).
 ![Mystery Signal](img/mystery_squiggle.png "Mystery Signal")
  
 
-Similar to the second signal above, we often see various signal types that our software are not specifically 
-designed to detect and classify. Thesea are signals that we sometimes call "squiggles", "pulsed", and 
+Similar to the signal above, we often see various signal types that our software is not specifically 
+designed to detect. Thesea have various names like "squiggles", "pulsed", and 
 "bright pixels".
 
-We want to build classification models that are designed to find these "other" types of signals. 
-We believe a public code challenge and hackathon around this problem would be a great way to engage the public 
-and utilize the expertise from the data science community -- to increase the number of large cups in the water, 
-as [may be described](https://www.ted.com/talks/jill_tarter_s_call_to_join_the_seti_search) by, our own, [Dr. Jill Tarter](http://www.seti.org/users/jill-tarter).
+We want to build classification models that are designed to find these "other" types of signals, which is what
+this hackathon and code challenge is all about. 
+We hope to utilize the expertise from the data science community and simultaneously allow a way for 
+citizen scientists to get involved in research that is normally out of their reach.  We want to increase the number of large cups in the water, as [Dr. Jill Tarter](http://www.seti.org/users/jill-tarter) might [describe it](https://www.ted.com/talks/jill_tarter_s_call_to_join_the_seti_search). 
 
 If you have participated in the SETI@IBMCloud project 
 ([blog post](https://developer.ibm.com/clouddataservices/2016/09/29/seti-data-on-ibm-cloud/), 
