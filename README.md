@@ -73,13 +73,8 @@ If you have participated in the SETI@IBMCloud project
  
 The code challenge will ask participants to build a classification system based on a large body of simulated 
 data that we are now constructing. You will receive the raw data for tens of thousands of signals, 
-like the ones you see above. 
-The simulated data set will be used for the training and test data sets for 
-signal detection and classification tools. Models will be judged based on their accuracy and speed 
-(the detection system is done in real-time so solutions will need to classify single events relatively quickly). 
-The most-accurate solution, which can classify a single event in "real-time", will be installed into our data
-analysis pipeline at the Hat Creek Observatory. 
-
+like the ones you see above. The most accurate classifier submitted by the end of the code challenge will be installed into the SETI Institute's data analysis pipeline to work on the latest observational data. 
+ 
  
 #### The Hackathon 
 
@@ -92,11 +87,8 @@ code challenge.
 
 We have two separate Eventbrite pages for registration. 
 
-**Our event registration is not yet complete! Please [leave your email address here](http:www.seti.org/ml4seti) 
-and we'll notify you as soon as they are ready!**
-
-  * Hackathon: 
-  * Code-Challenge: 
+  * [Hackathon](https://www.eventbrite.com/e/seti-institute-hackathon-machine-learning-for-the-search-for-extraterrestrial-intelligence-tickets-32830428696) 
+  * [Code-Challenge](https://www.eventbrite.com/e/seti-institute-code-challenge-machine-learning-for-the-search-for-extraterrestrial-intelligence-registration-32831985352) 
 
 
 ### Hackathon Schedule
@@ -154,14 +146,9 @@ some really cool trophies that will be handed out as awards at the hackathon.
 We are planning to judge the main code challenge entries by the following metrics
 
   * LogLoss function based on confusion matrix results
-  * Speed of single-event classification (for real-time compatibilities)
+  * Speed of single-event classification (for real-time capabilities)
 
-**Very Important!**  Your code entry / model must be capable of running in the SETI Institute's 
-IBM Spark enviornment, which will be used for final analysis using our large simulated data set. 
-We'll work with you to port your model to our system. 
-
-Before the code challenge, we will have a better definition of how you will need to interface your code entry 
-to measure it's performance.
+Before the code challenge, we will have a better definition of how you will submit your entry.
 
 ## Teamwork!
 
@@ -192,6 +179,7 @@ List of analysis ideas and concepts that may be useful:
   * Wavelet decomposition
   * De-chirping
   * KTL transform
+  * Time-series preprocessing: windowing, or Welch periodigram estimator
 
 
 
@@ -209,7 +197,7 @@ the Apache License 2.0.
 
 **Can I participate in the hackathon remotely?**
 
-We are hoping to live-stream the talks and to share any slides that are presented. In this way, you
+We are hoping to live-stream the talks via Facebook and to share any slides that are presented. In this way, you
 can partially observe what is happening during the hackathon.
 All material and information that you will need to do the work will be available online, of course. You
 can participate with teams at the hackathon (and communicate with your team via Slack). 
@@ -221,7 +209,7 @@ the hackathon in order to present your work and win a prize.
 ## Other Reading
 
 The SETI Institute has been partnering with IBM for almost two years now. We've done amazing work together and 
-have written about it in various places. Please check it out!
+have written about it in various places. Please check it out.
 
   * [SETI@IBMCloud: SETI data, publicly available, from IBM](https://developer.ibm.com/clouddataservicesold/2016/09/29/seti-data-on-ibm-cloud/)
   * [SETI sparks Machine Learning to sift Big Data](http://blog.ibmjstart.net/2015/07/14/seti-sparks-machine-learning-to-sift-big-data/)
