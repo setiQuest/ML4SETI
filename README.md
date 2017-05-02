@@ -1,6 +1,11 @@
 # SETI Institute Hackathon and Code Challenge
 #### Machine Learning 4 the Search for Extra Terrestrial Intelligence (http://www.seti.org/ml4seti)
 
+
+<a href="https://www.eventbrite.com/e/seti-institute-hackathon-machine-learning-for-the-search-for-extraterrestrial-intelligence-tickets-32830428696?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=32830428696" alt="Eventbrite - SETI Institute Hackathon: Machine Learning for the Search for Extraterrestrial Intelligence" /></a>
+
+<a href="https://www.eventbrite.com/e/seti-institute-code-challenge-machine-learning-for-the-search-for-extraterrestrial-intelligence-registration-32831985352?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=32831985352" alt="Eventbrite - SETI Institute Code Challenge: Machine Learning for the Search for Extraterrestrial Intelligence" /></a>
+
 ## Introduction
 
 This page documents the details for the SETI Institute's Hackathon (June 10-11, 2017) and code challenge (June 1 to July 31, 2017), 
@@ -85,11 +90,11 @@ code challenge.
 
 ## Event Details & Registration
 
-We have two separate Eventbrite pages for registration. 
+We have two separate pages for registration. 
 
-  * [Hackathon](https://www.eventbrite.com/e/seti-institute-hackathon-machine-learning-for-the-search-for-extraterrestrial-intelligence-tickets-32830428696) 
-  * [Code-Challenge](https://www.eventbrite.com/e/seti-institute-code-challenge-machine-learning-for-the-search-for-extraterrestrial-intelligence-registration-32831985352) 
+<a href="https://www.eventbrite.com/e/seti-institute-hackathon-machine-learning-for-the-search-for-extraterrestrial-intelligence-tickets-32830428696?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=32830428696" alt="Eventbrite - SETI Institute Hackathon: Machine Learning for the Search for Extraterrestrial Intelligence" /></a> 
 
+<a href="https://www.eventbrite.com/e/seti-institute-code-challenge-machine-learning-for-the-search-for-extraterrestrial-intelligence-registration-32831985352?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=32831985352" alt="Eventbrite - SETI Institute Code Challenge: Machine Learning for the Search for Extraterrestrial Intelligence" /></a>
 
 ### Hackathon Schedule
 
