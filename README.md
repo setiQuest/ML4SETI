@@ -62,7 +62,7 @@ page is on a log-scale).
  
 
 Similar to the signal above, we often see various signal types that our software is not specifically 
-designed to detect. Thesea have various names like "squiggles", "pulsed", and 
+designed to detect. These have various names like "squiggles", "pulsed", and 
 "bright pixels".
 
 We want to build classification models that are designed to find these "other" types of signals, which is what
