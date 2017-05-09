@@ -53,7 +53,7 @@ signals our software is tuned to identify.
 ![ISEE3 Narrow Band Signal](img/isee3.png "ISEE3 Narrow Band Signal")
 
 
-But things are never that pretty unless we're looking at a man-made spacecraft. Here's another example: 
+But things are never that pretty unless we're looking at a spacecraft. Here's another example: 
 a mysterious squiggle observed in 2014 (the color scale is different because the power amplitude, coming out of the
 page is on a log-scale). 
 
