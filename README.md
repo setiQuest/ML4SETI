@@ -106,12 +106,9 @@ We have two separate pages for registration.
     * 1:00+          Hack
   * Sunday, June 11, 2017
     * 8:00 - 9:00    Breakfast
-    * 9:00 - 12:00   Hack
-    * 12:00 - 1:00   Lunck + Talk by [Dr. Danny Price](https://seti.berkeley.edu/people/Danny.html) of the [UC Berekeley SETI Research Center](https://seti.berkeley.edu/index.html)
-    * 1:00 - 4:00    Hack
-    * 4:00 - 5:30    Presentations + Awards
-    * 5:30+          Hack until Galvanize kicks us out
-
+    * 9:00 - 2:00pm  Hack
+    * 2:30 - 3:00    Talk by [Dr. Danny Price](https://seti.berkeley.edu/people/Danny.html) of the [UC Berekeley SETI Research Center](https://seti.berkeley.edu/index.html)
+    * 3:00 - 5:30    Presentations + Awards
 
 
 ## Awards & Prizes
