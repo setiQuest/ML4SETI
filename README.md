@@ -103,10 +103,10 @@ We have two separate pages for registration.
     * 9:00 - 10:00   Introduction, Team forming
     * 10:00 - 12:00  Hack
     * 12:00 - 1:00   Lunch + Talk by [Dr. Jill Tarter](http://www.seti.org/users/jill-tarter) and [Dr. Gerry Harp](http://www.seti.org/seti-institute/staff/gerry-harp) of the SETI Institute
-    * 1:00+          Hack
+    * 1:00 - 10:00   Hack
   * Sunday, June 11, 2017
     * 8:00 - 9:00    Breakfast
-    * 9:00 - 2:00pm  Hack
+    * 9:00 - 2:00    Hack
     * 2:30 - 3:00    Talk by [Dr. Danny Price](https://seti.berkeley.edu/people/Danny.html) of the [UC Berekeley SETI Research Center](https://seti.berkeley.edu/index.html)
     * 3:00 - 5:30    Presentations + Awards
 
