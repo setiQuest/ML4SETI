@@ -77,7 +77,7 @@ If you have participated in the SETI@IBMCloud project
 ### The Hackathon & Code Challenge
  
 The code challenge will ask participants to build a classification system based on a large body of simulated 
-data that we are now constructing. You will receive the raw data for tens of thousands of signals, 
+data that we are now constructing. You will receive the raw data for hundreds of thousands of signals, 
 like the ones you see above. The most accurate classifier submitted by the end of the code challenge will be installed into the SETI Institute's data analysis pipeline to work on the latest observational data. 
  
  
