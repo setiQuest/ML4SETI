@@ -169,7 +169,6 @@ List of analysis ideas and concepts that may be useful:
 
   * "standard" machine-learning feature extraction (see [`ibmseti`](https://github.com/ibm-cds-labs/ibmseti))
   * Watson Visual Recognition
-    * train Watson after using some kind of image filtering.
   * Deep Learning (DNN, CNN)
     * on fourier-space representation 
     * on raw time-series
