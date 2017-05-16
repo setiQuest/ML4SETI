@@ -129,9 +129,10 @@ The prize for the best classifier submitted by the end of the code-challenge wil
 At the end of the hackathon, the judging panel will listen to brief presentations by participating teams
 and offer awards on the
 
-  * Most Accurate Analysis (you will present your own confusion matrix -- 
-  we will not check results, so we rely on the honor system.)
+  * Best Classification 
     * Winner gets a tour of the ATA with SETI Institute scientists (up to 6 team members).
+  * Best Signal Processing
+  * Best Classifier without a Neural Network or IBM Watson
   * Most Interesting / Surprising Analysis
 
 We are working on more awards and prizes for both the hackathon and code challenge.   
@@ -148,7 +149,7 @@ some really cool trophies that will be handed out as awards at the hackathon.
 We are planning to judge the main code challenge entries by the following metrics
 
   * LogLoss function based on confusion matrix results
-  * Speed of single-event classification (for real-time capabilities)
+  * Speed of single-event classification (We have a very weak speed requirement of classification with 30 seconds, which allows for cloud-based solutions.)
 
 Before the code challenge, we will have a better definition of how you will submit your entry.
 
