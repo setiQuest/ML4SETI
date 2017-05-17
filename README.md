@@ -1,6 +1,8 @@
 # SETI Institute Hackathon and Code Challenge
 #### Machine Learning 4 the Search for Extra Terrestrial Intelligence (http://www.seti.org/ml4seti)
 
+The SETI Institute is hosting a public hackathon and global, online code challenge to find a robust signal classification algorithm for use in our mission to find E.T. radio communication. By framing the radio signal data as spectrogram (a 2D visual representation), we can convert the problem into something akin to an image classification problem.  We are looking for participants to build machine learning and deep learnng / AI techniques to construct highly accurate classification systems that will be used in our data analysis pipeline at our telescope array. 
+
 
 <a href="https://www.eventbrite.com/e/seti-institute-hackathon-machine-learning-for-the-search-for-extraterrestrial-intelligence-tickets-32830428696?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=32830428696" alt="Eventbrite - SETI Institute Hackathon: Machine Learning for the Search for Extraterrestrial Intelligence" /></a>
 
@@ -87,6 +89,25 @@ The hackathon will be a mini-version of the code challenge, with its own set of 
 entirely within itself that you can participate in. However, it will also be a kick-off for the larger 
 code challenge. 
 
+##### Special Offers to Attendees
+
+We are excited to offer significant computing resources for participants of the hackathon!
+
+Attendees will receive
+
+  * extended trial account on IBM Bluemix  
+  * extended trail account on IBM Data Science Experience
+  * weekend access to IBM Watson Visual Recognition 
+  * weekend access to IBM Apache Spark Enterprise 
+  * tutorials covering IBM Watson VR, Tensorflow, and Skymind's DL4J
+
+Additionally, we are working to gain access to even more high performance computing resources (GPUs) for the event (TBD).
+ 
+You’ll work directly with top SETI researchers. There will be talks by Dr. Jill Tarter and Dr. Gerry Harp from the SETI Institute and Dr. Danny Price of UC Berkeley / Breakthrough Listen.
+
+The hackathon will be at the new IBM Innovation Space, which occupies the 5th floor of the SOMA Galvanize office in San Francisco. In addition, we will also have access to the Galvanize rooftop for getting some fresh air and taking breaks. A light breakfast, snacks, lunch and pizza dinner on Saturday evening will be provided. 
+
+
 
 ## Event Details & Registration
 
@@ -103,10 +124,11 @@ We have two separate pages for registration.
     * 9:00 - 10:00   Introduction, Team forming
     * 10:00 - 12:00  Hack
     * 12:00 - 1:00   Lunch + Talk by [Dr. Jill Tarter](http://www.seti.org/users/jill-tarter) and [Dr. Gerry Harp](http://www.seti.org/seti-institute/staff/gerry-harp) of the SETI Institute
-    * 1:00 - 10:00   Hack
+    * 1:00 - 10:00   Hack + Workshop + Pizza
+    
   * Sunday, June 11, 2017
     * 8:00 - 9:00    Breakfast
-    * 9:00 - 2:00    Hack
+    * 9:00 - 2:00    Hack + Lunch
     * 2:30 - 3:00    Talk by [Dr. Danny Price](https://seti.berkeley.edu/people/Danny.html) of the [UC Berekeley SETI Research Center](https://seti.berkeley.edu/index.html)
     * 3:00 - 5:30    Presentations + Awards
 
