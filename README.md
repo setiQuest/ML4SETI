@@ -91,21 +91,21 @@ code challenge.
 
 ##### Special Offers to Attendees
 
-We are excited to offer significant computing resources for participants of the hackathon!
+We are excited to offer significant computing resources for participants of the hackathon.
 
 Attendees will receive
 
-  * extended trial account on IBM Bluemix  
-  * extended trail account on IBM Data Science Experience
-  * weekend access to IBM Watson Visual Recognition 
-  * weekend access to IBM Apache Spark Enterprise 
-  * tutorials covering IBM Watson VR, Tensorflow, and Skymind's DL4J
+  * extended trial account on [IBM Bluemix](https://bluemix.net)  
+  * extended trail account on [IBM Data Science Experience](https://datascience.ibm.com)
+  * weekend access to [IBM Watson Visual Recognition](https://www.ibm.com/watson/developercloud/visual-recognition.htmlv)
+  * weekend access to an [IBM Apache Spark Enterprise cluster](https://www.ibm.com/analytics/us/en/technology/spark/) 
+  * tutorials covering IBM Watson VR, Tensorflow, and [Skymind's DL4J](https://skymind.ai)
 
 Additionally, we are working to gain access to even more high performance computing resources (GPUs) for the event (TBD).
  
-You’ll work directly with top SETI researchers. There will be talks by Dr. Jill Tarter and Dr. Gerry Harp from the SETI Institute and Dr. Danny Price of UC Berkeley / Breakthrough Listen.
+You’ll work directly with top SETI researchers. There will be talks by [Dr. Jill Tarter](https://www.ted.com/talks/jill_tarter_s_call_to_join_the_seti_search) and [Dr. Gerry Harp](https://www.seti.org/users/gerry-harp) from the SETI Institute and [Dr. Danny Price](https://seti.berkeley.edu/people/Danny.html) of UC Berkeley / [Breakthrough Listen](https://breakthroughinitiatives.org/).
 
-The hackathon will be at the new IBM Innovation Space, which occupies the 5th floor of the SOMA Galvanize office in San Francisco. In addition, we will also have access to the Galvanize rooftop for getting some fresh air and taking breaks. A light breakfast, snacks, lunch and pizza dinner on Saturday evening will be provided. 
+The hackathon will be at the **new IBM Innovation Space**, which occupies the 5th floor of the SOMA Galvanize office in San Francisco. In addition, we will also have access to the **Galvanize rooftop** for getting some fresh air and  breaks. A light breakfast, snacks, lunch for both days and a pizza dinner on Saturday evening will be provided. 
 
 
 
@@ -125,7 +125,7 @@ We have two separate pages for registration.
     * 10:00 - 12:00  Hack
     * 12:00 - 1:00   Lunch + Talk by [Dr. Jill Tarter](http://www.seti.org/users/jill-tarter) and [Dr. Gerry Harp](http://www.seti.org/seti-institute/staff/gerry-harp) of the SETI Institute
     * 1:00 - 10:00   Hack + Workshop + Pizza
-    
+
   * Sunday, June 11, 2017
     * 8:00 - 9:00    Breakfast
     * 9:00 - 2:00    Hack + Lunch
