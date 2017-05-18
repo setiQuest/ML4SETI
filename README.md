@@ -95,11 +95,11 @@ We are excited to offer significant computing resources for participants of the 
 
 Attendees will receive
 
-  * extended trial account on [IBM Bluemix](https://bluemix.net)  
-  * extended trail account on [IBM Data Science Experience](https://datascience.ibm.com)
   * weekend access to [IBM Watson Visual Recognition](https://www.ibm.com/watson/developercloud/visual-recognition.htmlv)
   * weekend access to an [IBM Apache Spark Enterprise cluster](https://www.ibm.com/analytics/us/en/technology/spark/) 
   * tutorials covering IBM Watson VR, Tensorflow, and [Skymind's DL4J](https://skymind.ai)
+  * extended trial account on [IBM Bluemix](https://bluemix.net)  
+  * extended trial account on [IBM Data Science Experience](https://datascience.ibm.com)
 
 Additionally, we are working to gain access to even more high performance computing resources (GPUs) for the event (TBD).
  
