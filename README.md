@@ -235,6 +235,7 @@ the hackathon in order to present your work and win a prize.
 The SETI Institute has been partnering with IBM for almost two years now. We've done amazing work together and 
 have written about it in various places. Please check it out.
 
+  * [SETI Talk at Seattle Galvanize by Adam Cox](img/SEA_Galvanize.pdf)
   * [SETI@IBMCloud: SETI data, publicly available, from IBM](https://developer.ibm.com/clouddataservicesold/2016/09/29/seti-data-on-ibm-cloud/)
   * [SETI sparks Machine Learning to sift Big Data](http://blog.ibmjstart.net/2015/07/14/seti-sparks-machine-learning-to-sift-big-data/)
   * [Types of Big Data from the Allen Telescope Array](http://blog.ibmjstart.net/2015/08/06/types-of-bigdata-from-the-allen-telescope-array/)
