@@ -242,7 +242,7 @@ to your IBM Object Storage account
 
 ### Judging
 
-See the [JudgingCriteria](JudgingCriteria.ipynb) document
+See the [JudgingCriteria](Judging_Criteria.ipynb) document
 
 ### BUGS
 
