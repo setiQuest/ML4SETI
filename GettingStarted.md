@@ -20,6 +20,11 @@ Finally, for data you may have in your IBM Spark local file space, you'll want t
 to your IBM Object Storage account
 
 
+### General Information
+
+  * [Moving Data To and From IBM Object Storage](tutorials/General_move_data_to_from_Object_Storage.ipynb)
+  * [Moving Data To and From your Nimbix Cloud](tutorials/General_move_data_to_from_Nimbix.ipynb)
+
 ### Judging
 
 See the [JudgingCriteria](Judging_Criteria.ipynb) document
