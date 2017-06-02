@@ -124,13 +124,14 @@ We have two separate pages for registration.
     * 9:00 - 10:00   Introduction, Team forming
     * 10:00 - 12:00  Hack
     * 12:00 - 1:00   Lunch + Talk by [Dr. Jill Tarter](http://www.seti.org/users/jill-tarter) and [Dr. Gerry Harp](http://www.seti.org/seti-institute/staff/gerry-harp) of the SETI Institute
-    * 1:00 - 10:00   Hack + Workshop + Pizza
+    * 1:00 - 10:00   Hack + Power AI Workshop (1:00pm) + Pizza (6:30pm)
 
   * Sunday, June 11, 2017
     * 8:00 - 9:00    Breakfast
     * 9:00 - 2:00    Hack + Lunch
     * 2:30 - 3:00    Talk by [Dr. Danny Price](https://seti.berkeley.edu/people/Danny.html) of the [UC Berekeley SETI Research Center](https://seti.berkeley.edu/index.html)
-    * 3:00 - 5:30    Presentations + Awards
+    * 3:00 - 3:30    Break
+    * 3:30 - 5:30    Presentations + Awards
 
 
 ## Awards & Prizes
@@ -179,8 +180,7 @@ Before the code challenge, we will have a better definition of how you will subm
 
 You will mostly likely need to form a team of 4 to 6 people in order to accomplish your goals in a 
 timely manner. To facilitate team-building, among other things, we have created a Slack team for 
-communication. We will add Slack channels for different analysis approaches so you can easily 
-communicate with the entire community.
+communication.  
 
 [Sign up for the Slack team here.](https://ml4seti.mybluemix.net)
 
@@ -226,6 +226,8 @@ The fastest way to get started, and the best experience, will be if you work fro
 IBM Data Science Experience (DSX). Go to https://datascience.ibm.com to sign up for an account. When you sign
 up, an IBM Bluemix account will also be created for you (with the same credentials).
 
+### Tutorials
+
 From IBM DSX, you can begin to access the data by running the introductory notebooks.
 
   * [Step 1: Get Data](tutorials/Step_1_Get_Data.ipynb)
@@ -233,7 +235,6 @@ From IBM DSX, you can begin to access the data by running the introductory noteb
   * [Step 2b: List of Signal Classes](tutorials/Step_2b_List_Of_Signal_Classes.ipynb)
   * [Step 3: Build PNG Files](tutorials/Step_3_Build_Set_Of_PNG_Files.ipynb)
   * [Step 4: First Classifier with Watson Visual Recognition](tutorials/Step_4_Classify_with_WatsonVR.ipynb)
-  * [Step 5: Classifier with TensorFlow](tutorials/Step_5_Classify_with_TensorFlow.ipynb)
   
 Finally, for data you may have in your IBM Spark local file space, you'll want to know how to move that data
 to your IBM Object Storage account
@@ -241,16 +242,21 @@ to your IBM Object Storage account
 
 ### Judging
 
+See the [JudgingCriteria](JudgingCriteria.ipynb) document
 
+### BUGS
+
+There are bound to be bugs, problems and questions. Please submit bug reports to the "Issues" 
+in this GitHub repository. 
+
+You can also chat with organizers and other participants on our [Slack Team](#teamwork).
 
 
 ## Frequently Asked Questions
 
 **Can I participate in the hackathon remotely?**
 
-We are hoping to live-stream the talks via Facebook and to share any slides that are presented. In this way, you
-can partially observe what is happening during the hackathon.
-All material and information that you will need to do the work will be available online, of course. You
+All material and information that you will need to do the work will be available online. You
 can participate with teams at the hackathon (and communicate with your team via Slack). 
 However, we cannot ship any prizes or event swag to participants that are 
 remote and we cannot support presentations of work for remote teams. At least one team member must be at
