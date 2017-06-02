@@ -36,4 +36,4 @@ See the [JudgingCriteria](Judging_Criteria.ipynb) document
 There are bound to be bugs, problems and questions. Please submit bug reports to the "Issues" 
 in this GitHub repository. 
 
-You can also chat with organizers and other participants on our [Slack Team](README.md#teamwork).
+You can also chat with organizers and other participants on our [Slack Team](https://ml4seti.mybluemix.net/).
