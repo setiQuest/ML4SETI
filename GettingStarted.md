@@ -8,7 +8,7 @@ up, an IBM Bluemix account will also be created for you (with the same credentia
 
 ### Tutorials
 
-From IBM DSX, you can begin to access the data by running the introductory notebooks.
+From IBM DSX, you can begin to access the data by running the introductory notebooks. One thing to note: use Python 2.7 instead of Python 3.5. The `ibmseti` package only installs on 2.x at the moment. 
 
   * [Step 1: Get Data](tutorials/Step_1_Get_Data.ipynb)
   * [Step 2: Reading Data and Creating Spectrogram](tutorials/Step_2_reading_SETI_code_challenge_data.ipynb)
