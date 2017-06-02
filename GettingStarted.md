@@ -15,12 +15,14 @@ From IBM DSX, you can begin to access the data by running the introductory noteb
   * [Step 2b: List of Signal Classes](tutorials/Step_2b_List_Of_Signal_Classes.ipynb)
   * [Step 3: Build PNG Files](tutorials/Step_3_Build_Set_Of_PNG_Files.ipynb)
   * [Step 4: First Classifier with Watson Visual Recognition](tutorials/Step_4_Classify_with_WatsonVR.ipynb)
-  
-Finally, for data you may have in your IBM Spark local file space, you'll want to know how to move that data
-to your IBM Object Storage account
+  * Step 5: TensorFlow and Neural Nets
+    - [A: Intro to Tensorflow](tutorials/Step_5a_Intro_To_Tensor_Flow.ipynb)
+    - [B: Understanding Convolutional Neural Nets](tutorials/Step_5b_Underestanding_CNN.ipynb)
+    - [C: Convert SETI data to Binary Files](tutorials/Step_5c_Convert_TS_to_Binary.ipynb)
+    - [D: Build CNN in Tensorflow](tutorials/Step_5d_Build_CNN_Tf.ipynb)
 
 
-### General Information
+### Other Information
 
   * [Moving Data To and From IBM Object Storage](tutorials/General_move_data_to_from_Object_Storage.ipynb)
   * [Moving Data To and From your Nimbix Cloud](tutorials/General_move_data_to_from_Nimbix.ipynb)
