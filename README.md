@@ -97,11 +97,11 @@ Attendees will receive
 
   * weekend access to [IBM Watson Visual Recognition](https://www.ibm.com/watson/developercloud/visual-recognition.htmlv)
   * weekend access to an [IBM Apache Spark Enterprise cluster](https://www.ibm.com/analytics/us/en/technology/spark/) 
+  * weekend access to [IBM PowerAI Deep Learning](https://www.ibm.com/us-en/marketplace/deep-learning-platform) platform on [Nimbix Cloud](https://www.nimbix.net/) 
   * tutorials covering IBM Watson VR, Tensorflow, and [Skymind's DL4J](https://skymind.ai)
   * extended trial account on [IBM Bluemix](https://bluemix.net)  
   * extended trial account on [IBM Data Science Experience](https://datascience.ibm.com)
 
-Additionally, we are working to gain access to even more high performance computing resources (GPUs) for the event (TBD).
  
 You’ll work directly with top SETI researchers. There will be talks by [Dr. Jill Tarter](https://www.ted.com/talks/jill_tarter_s_call_to_join_the_seti_search) and [Dr. Gerry Harp](https://www.seti.org/users/gerry-harp) from the SETI Institute and [Dr. Danny Price](https://seti.berkeley.edu/people/Danny.html) of UC Berkeley / [Breakthrough Listen](https://breakthroughinitiatives.org/).
 
