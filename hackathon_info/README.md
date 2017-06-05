@@ -69,6 +69,7 @@ When you access your Jupyter notebook, you should see these tutorials in your lo
     * one account per team
   4. Find the shared Project in you DSX account
   5. Use only ONE notebook (one pyspark kernel) at a time in the Enterprise account
+    * 
     * Use your personal free-tier Spark service for prototyping
 
 ### Play Nice!
