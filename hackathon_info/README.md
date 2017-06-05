@@ -46,6 +46,7 @@ In the interest of time for the hackathon, we'll be using a reduced test data se
 
 ## Setting up PowerAI
 
+[Please follow the instructions here.](https://ibm.box.com/v/setipowerai)
 
 ## Using Spark Enterprise
 
