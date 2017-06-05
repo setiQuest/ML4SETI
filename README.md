@@ -136,8 +136,11 @@ We have two separate pages for registration.
 
 ## Awards & Prizes
 
-We are excited to be able to offer some amazing and extremely unique prizes! 
-You will simply not find prizes like this anywhere else.
+We are excited to be able to offer some amazing and extremely unique prizes.
+You will not find prizes like this anywhere else.
+
+**The SETI Institute reserves the right to alter the awards and prizes at any time. 
+Of course, we will do our best, but cannot make any guarantees.**
 
 ### Code Challenge
 
@@ -163,7 +166,7 @@ We are working on more awards and prizes for both the hackathon and code challen
 #### Trophies!
 
 Dr. Gerry Harp and one of his friends have managed to cut apart some old antenna and fashion them into 
-some really cool trophies that will be handed out as awards at the hackathon.
+trophies that will be handed out as awards at the hackathon.
 
 ![Hackathon Trophy](img/trophy.png "Hackathon Trophy built from old antenna.")
 
@@ -171,12 +174,12 @@ some really cool trophies that will be handed out as awards at the hackathon.
 
 We are planning to judge the main code challenge entries by the following metrics
 
-  * LogLoss function based on confusion matrix results
-  * Speed of single-event classification (We have a very weak speed requirement of classification with 30 seconds, which allows for cloud-based solutions.)
+  * Log-Loss function based on confusion matrix results
+  * Speed of single-event classification (We have a very weak speed requirement of classification within 30 seconds, which allows for cloud-based solutions.)
 
 Before the code challenge, we will have a better definition of how you will submit your entry.
 
-## Teamwork!
+## Teamwork
 
 You will mostly likely need to form a team of 4 to 6 people in order to accomplish your goals in a 
 timely manner. To facilitate team-building, among other things, we have created a Slack team for 
@@ -191,19 +194,19 @@ List of analysis ideas and concepts that may be useful:
 
   * "standard" machine-learning feature extraction (see [`ibmseti`](https://github.com/ibm-cds-labs/ibmseti))
   * Watson Visual Recognition
-  * Deep Learning (DNN, CNN)
+  * Deep Learning (CNN)
     * on fourier-space representation 
     * on raw time-series
     * [Basic Deep Learning tutorial](https://apsportal.ibm.com/exchange/public/entry/view/efb51900cc9d687fb9f05b2eabb66cb5)
   * [Deep Forest](https://arxiv.org/abs/1702.08835)
   * Priciple Component Analysis
-  * Decision Tree
+  * Decision Trees
   * Support Vector Machines
   * k-Nearest Neighbors
   * Wavelet decomposition
   * De-chirping
   * KTL transform
-  * Time-series preprocessing: windowing, or Welch periodigram estimator
+  * Time-series preprocessing: windowing, or Welch periodigram estimation
 
 
 
