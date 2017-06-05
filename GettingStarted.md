@@ -25,7 +25,7 @@ From IBM DSX, you can begin to access the data by running the introductory noteb
 ### Other Information
 
   * [Moving Data To and From IBM Object Storage](tutorials/General_move_data_to_from_Object_Storage.ipynb)
-  * [Moving Data To and From your Nimbix Cloud](tutorials/General_move_data_to_from_Nimbix.ipynb)
+  * [Moving Data To and From your Nimbix Cloud](tutorials/General_move_data_to_from_Nimbix_Cloud.ipynb)
 
 ### Judging
 
