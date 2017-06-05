@@ -21,6 +21,13 @@ We've created these redundancies to ensure we can work around any potential prob
 
 ## Example Tutorials
 
+We recommend that you pull down this repository into your local space
+
+```
+git clone https://github.com/setiQuest/ML4SETI
+```
+
+When you access your Jupyter notebook, you should see these tutorials in your local user space, which you can then copy and/or modify. 
 
 ## Using the Scoreboard
 
@@ -134,6 +141,9 @@ This is a subjective award that will be decided upon by our judging panel of SET
 #### Presentations
 
 Presentations do not need to be highly-polished talks. Please just make one or two slides that highlight the tools and techniques that were employed and then show some example code and results. Aim to keep presentations under 7 minutes long and we'll allow 3 minutes for questions. 
+
+## IBM Developer Works TV
+
 
 
 
