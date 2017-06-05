@@ -21,7 +21,7 @@ We've created these redundancies to ensure we can work around any potential prob
 
 ## Example Tutorials
 
-We recommend that you pull down this repository into your local space
+We recommend that you pull down this repository into your work space. 
 
 ```
 git clone https://github.com/setiQuest/ML4SETI
@@ -47,6 +47,16 @@ In the interest of time for the hackathon, we'll be using a reduced test data se
 ## Setting up PowerAI
 
 [Please follow the instructions here.](https://ibm.box.com/v/setipowerai)
+
+### Example Tutorials
+
+After you've logged in to your PowerAI system on Nimbix Cloud, we recommend that you clone this Github repository in order to easily download the tutorials found here. You'll want to run the 'Step 5' tutorials that use TensorFlow to build neural net models on these PowerAI systems. 
+
+```
+git clone https://github.com/setiQuest/ML4SETI
+```
+
+When you access your Jupyter notebook, you should see these tutorials in your local user space, which you can then copy and/or modify. 
 
 ## Using Spark Enterprise
 
