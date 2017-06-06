@@ -2,12 +2,53 @@
 
 The following document provides most of the information you need to know at the hackathon in SF-Galvanzie on June 10-11, 2017
 
+This information is organized in the order of how the hackathon will proceed. 
 
-## Data Location
 
-##### There are multiple ways to skin a cat. 
+## Team Formation
 
-As you see, there are multiple ways of accessing the data during the hackathon. There are
+After breakfast and the opening talks, we'll help you to form teams. 
+
+Once you've identified your teammates, you should determine your team name and identify two representatives for your team. One representative must have an IBM Data Science Experience (DSX) account, who will be the team representative for the Spark Enterprise cluster. The other will be the representative for the PowerAI machine. Choose one team member to bring the team name, the names and email addresses of the two team representatives up to the front where we will register your team on those systems. 
+
+
+## Sing the Scoreboard
+
+1. Each team member should in to the SETI Hackathon Event at https://compete.cognitiveclass.ai/
+2. Designate a team scoreboard master.
+3. The team master will Submit a test score and invite all team members by email (use the link below for test set).
+4. Perform your analysis and submit further results.
+
+
+### Mini Test Set
+
+In the interest of time for the hackathon, we'll be using a reduced test data set for scoring. It's about 1/5 the size of the normal primary test set. (In the case of needing a tie break, we'll use more test data.)
+
+Mini Test Set: [https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv](https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv)
+
+## Saving Your Work
+
+Choose one team member to be the code master. This person should fork our github repository: [https://github.com/setiquest/ml4seti](https://github.com/setiquest/ml4seti) into their own account and invite their team members to collaborate. 
+
+You should 
+After you've logged in to your PowerAI system on Nimbix Cloud, we recommend that you clone this Github repository in order to easily download the tutorials found here. You'll want to run the 'Step 5' tutorials that use TensorFlow to build neural net models on these PowerAI systems. 
+
+```
+git clone https://github.com/setiQuest/ML4SETI
+```
+
+## Setting up PowerAI
+
+[Please follow the instructions here.](https://ibm.box.com/v/setipowerai)
+
+
+
+When you access your Jupyter notebook, you should see these tutorials in your local user space, which you can then copy and/or modify. 
+
+### Data Location
+
+
+There are multiple ways of accessing the data during the hackathon. There are
 
   * zipped `small` and `medium` primary data sets on both Spark Enterprise and PowerAI
   * full `primary` data set on Spark Enterprise
@@ -19,44 +60,6 @@ As such, there are different ways you can write your analysis.
 We've created these redundancies to ensure we can work around any potential problems or bottlenecks. 
 
 
-## Example Tutorials
-
-We recommend that you pull down this repository into your work space. 
-
-```
-git clone https://github.com/setiQuest/ML4SETI
-```
-
-When you access your Jupyter notebook, you should see these tutorials in your local user space, which you can then copy and/or modify. 
-
-## Using the Scoreboard
-
-1. Sign in to the SETI Hackathon at https://compete.cognitiveclass.ai/
-2. Designate a team scoreboard master.
-3. Invite team members by email
-3b: submit a result. You must submit a result when you form your team. 
-
-4.  
-
-
-### Mini Test Set
-
-In the interest of time for the hackathon, we'll be using a reduced test data set for scoring. It's about 1/5 the size of the normal primary test set. (In the case of needing a tie break, we'll use more test data.)
-
-
-## Setting up PowerAI
-
-[Please follow the instructions here.](https://ibm.box.com/v/setipowerai)
-
-### Example Tutorials
-
-After you've logged in to your PowerAI system on Nimbix Cloud, we recommend that you clone this Github repository in order to easily download the tutorials found here. You'll want to run the 'Step 5' tutorials that use TensorFlow to build neural net models on these PowerAI systems. 
-
-```
-git clone https://github.com/setiQuest/ML4SETI
-```
-
-When you access your Jupyter notebook, you should see these tutorials in your local user space, which you can then copy and/or modify. 
 
 ## Using Spark Enterprise
 
@@ -69,7 +72,7 @@ When you access your Jupyter notebook, you should see these tutorials in your lo
     * one account per team
   4. Find the shared Project in you DSX account
   5. Use only ONE notebook (one pyspark kernel) at a time in the Enterprise account
-    * 
+    * Your kernel doesn't die when you close the Notebook --> make sure to call "Stop Kernel" from the project page.
     * Use your personal free-tier Spark service for prototyping
 
 ### Play Nice!
@@ -88,6 +91,21 @@ The most important thing to remember when using the Enterprise cluster is that a
       os.mkdir(teamdata)
     ```
   * Run only one Notebook on the Enterprise cluster (There is a maximum of 10 pyspark kernels allowed on IBM Spark clusters.)
+
+### Data Location
+
+
+There are multiple ways of accessing the data during the hackathon. There are
+
+  * zipped `small` and `medium` primary data sets on both Spark Enterprise and PowerAI
+  * full `primary` data set on Spark Enterprise
+  * data available on Object Storage
+
+
+As such, there are different ways you can write your analysis.
+
+We've created these redundancies to ensure we can work around any potential problems or bottlenecks. 
+
 
 
 ##### Use the filelists
@@ -155,6 +173,8 @@ This is a subjective award that will be decided upon by our judging panel of SET
 Presentations do not need to be highly-polished talks. Please just make one or two slides that highlight the tools and techniques that were employed and then show some example code and results. Aim to keep presentations under 7 minutes long and we'll allow 3 minutes for questions. 
 
 ## IBM Developer Works TV
+
+## Saving Your Work
 
 
 

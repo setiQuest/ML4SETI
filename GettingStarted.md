@@ -26,6 +26,7 @@ From IBM DSX, you can begin to access the data by running the introductory noteb
 
   * [Moving Data To and From IBM Object Storage](tutorials/General_move_data_to_from_Object_Storage.ipynb)
   * [Moving Data To and From your Nimbix Cloud](tutorials/General_move_data_to_from_Nimbix_Cloud.ipynb)
+  * [Connect your IBM DSX Account to an existing AWS EMR cluster](https://apsportal.ibm.com/docs/content/analyze-data/aws-emr.html)
 
 ### Judging
 
