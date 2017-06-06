@@ -131,7 +131,7 @@ We have two separate pages for registration.
     * 9:00 - 2:00    Hack + Lunch
     * 2:30 - 3:00    Talk by [Dr. Danny Price](https://seti.berkeley.edu/people/Danny.html) of the [UC Berekeley SETI Research Center](https://seti.berkeley.edu/index.html)
     * 3:00 - 3:30    Break
-    * 3:30 - 5:30    Presentations + Awards
+    * 3:30 - 5:45    Presentations + Awards
 
 
 ## Awards & Prizes
