@@ -2,6 +2,8 @@
 
 1. Direct your browser to https://datascience.ibm.com/ and log in using the email address you've provided in your team sign-up sheet.
 
+[Sign-in to DSX](../img/dsx/sign_in_to_dsx.png)
+
 2. Select **Projects** > **View All Projects**
 
 3. Click on the project named after our team. _Contact the event staff if you cannot see the project._ 
