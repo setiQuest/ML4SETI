@@ -19,6 +19,7 @@ Once you've identified your teammates, you should determine your team name and i
 3. The team master will Submit a test score and invite all team members by email (use the link below for test set).
 4. Perform your analysis and submit further results.
 
+TODO: remove above and put in link to Daniel's walkthrough document on Box. 
 
 ### Mini Test Set
 
@@ -26,9 +27,9 @@ In the interest of time for the hackathon, we'll be using a reduced test data se
 
 Mini Test Set: [https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv](https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv)
 
-## Saving Your Work
+## Team Code Repository
 
-Choose one team member to be the code master. This person should fork our github repository: [https://github.com/setiquest/ml4seti](https://github.com/setiquest/ml4seti) into their own account and invite their team members to collaborate. 
+Choose one team member to be the code master. You can make your own GH repo to hold your code, but one suggestion is for the code master to fork our github repository: [https://github.com/setiquest/ml4seti](https://github.com/setiquest/ml4seti) into their own account. You can then use your own fork of this repository as a starting point. You can invite your teammates to collaborate through the repo Settings.
 
 You should 
 After you've logged in to your PowerAI system on Nimbix Cloud, we recommend that you clone this Github repository in order to easily download the tutorials found here. You'll want to run the 'Step 5' tutorials that use TensorFlow to build neural net models on these PowerAI systems. 
@@ -41,7 +42,7 @@ git clone https://github.com/setiQuest/ML4SETI
 
 [Please follow the instructions here.](https://ibm.box.com/v/setipowerai)
 
-
+TODO: include in instructions for team to clone their code repository BEFORE launching the jupyter notebook. 
 
 When you access your Jupyter notebook, you should see these tutorials in your local user space, which you can then copy and/or modify. 
 
@@ -171,6 +172,18 @@ This is a subjective award that will be decided upon by our judging panel of SET
 #### Presentations
 
 Presentations do not need to be highly-polished talks. Please just make one or two slides that highlight the tools and techniques that were employed and then show some example code and results. Aim to keep presentations under 7 minutes long and we'll allow 3 minutes for questions. 
+
+
+## Organize Your Teams
+
+You will have access to one PowerAI system and one Spark Enterprise Cluster. We suggest that you split your team in a way that one subset works on signal processing techniques with the Spark cluster,  another subset focuses on building out a NN on PowerAI and potentially a third subset focuses on different feature extraction techniques that could feed into a classification system.  This way your whole team can potentially submit a result for each contest. Your team should organize, create a plan and periodically check in as a whole to exchange useful code. 
+
+### Overnight PowerAI Job
+
+On Saturday evening, before you leave, feel free to launch a large job on PowerAI that you can set up to run overnight. 
+
+If you do not plan to use PowerAI overnight, we please ask that you shut down your instance to save on costs. 
+
 
 ## IBM Developer Works TV
 
