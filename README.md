@@ -121,17 +121,21 @@ We have two separate pages for registration.
 
   * Saturday, June 10, 2017
     * 8:00 - 9:00    Breakfast
-    * 9:00 - 10:00   Introduction, [Dr. Jill Tarter](http://www.seti.org/users/jill-tarter), Team forming  
+    * 9:00 - 10:00   Introduction + Talk by [Dr. Jill Tarter](http://www.seti.org/users/jill-tarter), Team forming  
     * 10:00 - 12:00  Hack
     * 12:00 - 1:00   Lunch + Talk by [Dr. Gerry Harp](http://www.seti.org/seti-institute/staff/gerry-harp) & [Jon Richards](https://www.seti.org/users/jrichards) of the SETI Institute
-    * 1:00 - 10:00   Hack + Power AI Workshop (1:00pm) + Pizza (6:30pm)
+    * 1:00 - 10:00pm Hack
+    * 1:00 - 3:00    (Optional) Tensorflow/NeuralNet Workshop ([Step 5](GettingStarted.md))
+    * 6:30 - 8:00    Pizza + (Optional) Talk by Kyle Buckingham
+    * 10:00          Depart
 
   * Sunday, June 11, 2017
     * 8:00 - 9:00    Breakfast + Hack
     * 9:00 - 2:00    Hack through Lunch
     * 2:30 - 3:00    Talk by [Dr. Danny Price](https://seti.berkeley.edu/people/Danny.html) of the [UC Berekeley SETI Research Center](https://seti.berkeley.edu/index.html)
     * 3:00 - 3:30    Break
-    * 3:30 - 5:45    Presentations + Awards
+    * 3:30 - 5:45    Presentations, Awards, Wrap-Up
+    * 5:45 - 6:30    (Optional) Interviews of hackathon award winners
 
 
 ## Awards & Prizes
