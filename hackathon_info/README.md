@@ -12,7 +12,7 @@ After breakfast and the opening talks, we'll help you to form teams.
 Once you've identified your teammates, you should determine your team name and identify two representatives for your team. One representative must have an IBM Data Science Experience (DSX) account, who will be the team representative for the Spark Enterprise cluster. The other will be the representative for the PowerAI machine. Choose one team member to bring the team name, the names and email addresses of the two team representatives up to the front where we will register your team on those systems. 
 
 
-## Sing the Scoreboard
+## Sign on to the Scoreboard
 
 1. Each team member should in to the SETI Hackathon Event at https://compete.cognitiveclass.ai/
 2. Designate a team scoreboard master.
