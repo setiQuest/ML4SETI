@@ -189,9 +189,9 @@ We also recommend that this example notebook be a starting point for your analys
 
 ## Awards
 
-The following awards will be handed out at the end of the day on Sunday. 
+Awards for the following contests will be handed out at the end of the day on Sunday. 
 
-Your team can take aim at all of the awards in the hackathon. However, in order to spread the joy, no team can win more than one award. 
+Your team can submit results for all of the contests in the hackathon. However, in order to spread the joy, no team can win more than one contest. 
 
 ### Best Classifier
 
@@ -200,6 +200,8 @@ This is the top prize for the weekend. Scoring will be done [on the main Scorebo
 Judging will be based on the `primary_testset_mini` data set. 
 
 We will only ask the top 2 or 3 teams make a presentation on Sunday to explain their methods (depending on time).
+
+**Prize**: Organized trip to the Hat Creek Radio Observatory & Allen Telescope Array, Trophy, SETI Hat, SETI Certificate and group photo.
 
 ### Best Signal Processing
 
@@ -214,6 +216,8 @@ Use the Watson VR Key found on your Team Handout. Be sure to use bulk uploads fo
 
 In order to win, you must present your methods, and show your code. 
 
+**Prize**: Trophy, SETI Hat, SETI Certificate and group photo.
+
 ### Best Classifer without NN or Watson
 
 This is aimed at a combination of signal processing, smart feature engineering and classification approaches that do not use deep learning / neural nets, such as using SVMs. 
@@ -222,10 +226,14 @@ This is aimed at a combination of signal processing, smart feature engineering a
 
 In order to win, you must present your methods, and show your code. 
 
+**Prize**: Trophy, SETI Hat, SETI Certificate and group photo.
+
 
 ### Most Interesting / Surprising Analysis
 
 This is a subjective award that will be decided upon by our judging panel of SETI and IBM researchers. All teams will have the opportunity to present their work even if they do not place a top score. As teams present their works, the judging panel will note each team's approach and award this prize to the team that purused a particularly interesting aspect. 
+
+**Prize**: "Trophy", SETI Hat, SETI Certificate and group photo.
 
 
 ### Presentations
