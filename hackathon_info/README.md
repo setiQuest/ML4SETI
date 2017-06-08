@@ -180,6 +180,8 @@ The `primary_small`, `primary_medium` and `basic` data sets are found in three l
 
 [This Notebook demonstrates how to access data from all three locations.](GetData_Hackathon.ipynb) When you're using the Spark Enterprise Clusters, we recommend you first try accessing the data in the local file space. If that becomes problemmatic, switch to using IBM Object Storage.
 
+### Good Starting Point!
+
 We also recommend that this example notebook be a starting point for your analysis since you can quickly begin to adapt the data retrieval code and perform some operations. 
 
 
