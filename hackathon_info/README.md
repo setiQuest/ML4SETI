@@ -12,7 +12,7 @@ After breakfast and the opening talks, we'll help you to form teams.
 
 1. Acknowlege already constructed teams.
 2. Identify ML/DL experts
-3. Identify Doman Knowledge experience (SETI@IBMCloud folks, signal processing experience)
+3. Identify Domain Knowledge experience (SETI@IBMCloud folks, signal processing experience)
 4. Identify ML/DL non-beginners
 5. Identify strong coders
 6. Identify beginners
