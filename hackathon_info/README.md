@@ -1,8 +1,7 @@
 # Hackathon Specific Information
 
-The following document provides most of the information you need to know at the hackathon in SF-Galvanzie on June 10-11, 2017
+The following document provides most of the information you need to know at the hackathon.
 
-This information is organized in the order of how the hackathon will proceed. 
 
 
 <br>
@@ -11,7 +10,15 @@ This information is organized in the order of how the hackathon will proceed.
 
 After breakfast and the opening talks, we'll help you to form teams. 
 
-Once you've identified your teammates, you should determine your team name and identify two representatives for your team. One representative must have an IBM Data Science Experience (DSX) account, who will be the team representative for the Spark Enterprise cluster. The other will be the representative for the PowerAI machine. Choose one team member to bring the team name, the names and email addresses of the two team representatives up to the front where we will register your team on those systems. 
+1. Acknowlege already constructed teams.
+2. Identify ML/DL experts
+3. Identify Doman Knowledge experience (SETI@IBMCloud folks, signal processing experience)
+4. Identify ML/DL non-beginners
+5. Identify strong coders
+6. Identify beginners
+
+Coalesce into teams that have a mix of the above.
+ 
 
 ### Fill In Team Handout
 
@@ -24,7 +31,7 @@ Once you've identified your teammates, you should determine your team name and i
 
 ## Sign on to the Scoreboard
 
-1. Each team member should sign in to the SETI Hackathon Event at https://compete.cognitiveclass.ai/
+1. Each team member should sign in to the main SETI Hackathon Event at https://compete.cognitiveclass.ai/
 2. Designate on team member to be the team scoreboard master.
 3. [Follow this complete walkthrough for signing on to the Scoreboard.](https://ibm.box.com/v/competitionwalkthrough)
 4. The team master will invite all team members by email and submit scores.
@@ -39,16 +46,16 @@ In the interest of time for the hackathon, we'll be using a reduced test data se
 
 Mini Test Set: [example_hackathon_scorecard.csv](https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv)
 
-As a test, submit this test set to the scoreboard to ensure you're up and running. 
+As a test, submit this scorecard to the scoreboard to ensure you're up and running. 
 
 <br>
 
 ## Team Code Repository
 
-Choose one team member to be the team code master. You can either
+Choose one team member to be the team code master. The code master should either
 
-  * Create a Github (GH) repository to hold your code that you develop from scratch. 
-  * Recommnded: Fork this github repository: [https://github.com/setiquest/ml4seti](https://github.com/setiquest/ml4seti) into your account. You can then use the code here as a starting point. 
+  * Create a Github repository to hold your code that you develop from scratch. 
+  * Recommnded: Fork this github repository: [https://github.com/setiquest/ml4seti](https://github.com/setiquest/ml4seti) into your Github account. You can then use the code here as a starting point. 
 
 Team code masters can invite teammates to collaborate through the GH repo Settings.
 
@@ -94,9 +101,9 @@ Read below though for how to access the computing resources we've gathered for t
 
 ## Setting up PowerAI
 
-Designate a team member to be the PowerAI master. You will use PowerAI systems to build neural network classifiers that require GPU accelleration for training. 
+Designate a team member to be the PowerAI master. You will use PowerAI systems to build neural network classifiers that require GPU acceleration for training. 
 
-An IBMer will return your Team Handout to you shortly. It will contain the login credentials to you Nimbix Cloud account.
+An IBMer will return your Team Handout to you shortly. It will contain the login credentials to your Nimbix Cloud account.
 
 [Your PowerAI master should follow the instructions here to get started.](https://ibm.box.com/v/nimbixsetup)
 
@@ -165,6 +172,12 @@ The `primary_small`, `primary_medium` and `basic` data sets are found in three l
 2. Shared disk on Nimbix/PowerAI in `/data/set`  (note the leading `/`)
 3. IBM Object Storage with fast network connection to Spark Enterprise Clusters.
 
+### Data Access Strategy
+
+1. Use index file -- list of UUID, SIGNAL_CLASSIFICATION
+2. Read each UUID from the file
+3. For each "UUID.dat", retrive that data file from local file space or IBM Object Storage
+
 [This Notebook demonstrates how to access data from all three locations.](GetData_Hackathon.ipynb) When you're using the Spark Enterprise Clusters, we recommend you first try accessing the data in the local file space. If that becomes problemmatic, switch to using IBM Object Storage.
 
 We also recommend that this example notebook be a starting point for your analysis since you can quickly begin to adapt the data retrieval code and perform some operations. 
@@ -216,6 +229,8 @@ This is a subjective award that will be decided upon by our judging panel of SET
 ### Presentations
 
 Presentations do not need to be highly-polished talks. Please just make one or two slides that highlight the tools and techniques that were employed and then show some example code and results. Aim to keep presentations under 7 minutes long and we'll allow 3 minutes for questions. 
+
+[Here is a template.](https://ibm.box.com/v/setipresentationtemplate)
 
 
 <br>
