@@ -13,126 +13,164 @@ After breakfast and the opening talks, we'll help you to form teams.
 
 Once you've identified your teammates, you should determine your team name and identify two representatives for your team. One representative must have an IBM Data Science Experience (DSX) account, who will be the team representative for the Spark Enterprise cluster. The other will be the representative for the PowerAI machine. Choose one team member to bring the team name, the names and email addresses of the two team representatives up to the front where we will register your team on those systems. 
 
+### Fill In Team Handout
+
+1. Quickly Decide Team Name
+2. Designate a Spark Enterprise master from team (must have IBM DSX account)
+3. Fill in the top portion of Team Handout
+4. An IBMer will pick up your handout and return this to you shortly.
 
 <br>
 
 ## Sign on to the Scoreboard
 
-1. Each team member should in to the SETI Hackathon Event at https://compete.cognitiveclass.ai/
-2. Designate a team scoreboard master.
-3. The team master will Submit a test score and invite all team members by email (use the link below for test set).
-4. Perform your analysis and submit further results.
-
-TODO: remove above and put in link to Daniel's walkthrough document on Box. 
+1. Each team member should sign in to the SETI Hackathon Event at https://compete.cognitiveclass.ai/
+2. Designate on team member to be the team scoreboard master.
+3. [Follow this complete walkthrough for signing on to the Scoreboard.](https://ibm.box.com/v/competitionwalkthrough)
+4. The team master will invite all team members by email and submit scores.
+5. Use the link below to the Mini Test Set to submit an example score
+6. Perform your analysis and submit further results.
+7. Note that we have 3 scoreboards: Best Classifier, Best Signal Processing, Best Classifier without NN/Watson
+7. Any teammate can submit a result to any of the three Scoreboards
 
 ### Mini Test Set
 
 In the interest of time for the hackathon, we'll be using a reduced test data set for scoring. It's about 1/5 the size of the normal primary test set. (In the case of needing a tie break, we'll use more test data.)
 
-Mini Test Set: [https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv](https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv)
+Mini Test Set: [example_hackathon_scorecard.csv](https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv)
 
+As a test, submit this test set to the scoreboard to ensure you're up and running. 
 
 <br>
 
 ## Team Code Repository
 
-Choose one team member to be the code master. You can make your own GH repo to hold your code, but one suggestion is for the code master to fork our github repository: [https://github.com/setiquest/ml4seti](https://github.com/setiquest/ml4seti) into their own account. You can then use your own fork of this repository as a starting point. You can invite your teammates to collaborate through the repo Settings.
+Choose one team member to be the team code master. You can either
 
-You should 
-After you've logged in to your PowerAI system on Nimbix Cloud, we recommend that you clone this Github repository in order to easily download the tutorials found here. You'll want to run the 'Step 5' tutorials that use TensorFlow to build neural net models on these PowerAI systems. 
+  * Create a Github (GH) repository to hold your code that you develop from scratch. 
+  * Recommnded: Fork this github repository: [https://github.com/setiquest/ml4seti](https://github.com/setiquest/ml4seti) into your account. You can then use the code here as a starting point. 
 
-```
-git clone https://github.com/setiQuest/ML4SETI
-```
+Team code masters can invite teammates to collaborate through the GH repo Settings.
+
+<br>
+
+## How to Work
+
+**You can run your team in whatever way you wish.** But we do have two suggestion that could maximize your strengths and compute resources. 
+
+We suggest that you 
+
+1. Discuss the strengths and weakeness of each member of your team. 
+2. Split your team into two or three groups:
+  * Group 1 operate on the Spark Enterprise cluster to focus efforts on Signal Processing techniques.
+  * Group 2 operate on the PowerAI system to focus on building neural network classifiers. 
+  * Group 3 focus on feature engineering using standard DSX account or laptop data science environment.
+
+The idea is that later on Saturday evening you can begin to pool your work together into a coherent strategy. Additionally, by splitting up, you can submit results for all three scoreboards. 
+
+##### Go For A Narrow Focus
+
+Another suggestion is for your team to focus entirely on one aspect/contest of the hackathon and use all of the compute resources you have available to that aim. 
+
+
+<br>
+
+## Use Slack
+
+Feel free to create your own team channel if you wish. Also, you may create other channels to discuss particular aspects. A number of channels have already been created, so please join the channels you find useful and begin collaborating and asking questions. 
 
 
 <br>
 
 ## Where to Work
 
-You can use a combination of your laptops, IBM Data Science Experience or the PowerAI systems, or other external cloud providers. It depends on whichever you're most comfortable with -- perhaps you've got a full data science environment set up already on your laptop and wish to start there. Read below though for how to access the computing resources we've gathered for this weekend.  
+You can use a combination of your laptops, IBM Data Science Experience, IBM PowerAI systems, or even other external cloud providers. It depends on whichever you're most comfortable with -- perhaps you've a full data science environment set up already on your laptop or elsewhere and wish to start there. 
+
+Read below though for how to access the computing resources we've gathered for this weekend.  
+
+
 
 <br>
 
 ## Setting up PowerAI
 
-[Please follow the instructions here.](https://ibm.box.com/v/setipowerai)
+Designate a team member to be the PowerAI master. You will use PowerAI systems to build neural network classifiers that require GPU accelleration for training. 
 
-TODO: include in instructions for team to clone their code repository BEFORE launching the jupyter notebook. 
+An IBMer will return your Team Handout to you shortly. It will contain the login credentials to you Nimbix Cloud account.
 
-When you access your Jupyter notebook, you should see these tutorials in your local user space, which you can then copy and/or modify. 
+[Your PowerAI master should follow the instructions here to get started.](https://ibm.box.com/v/nimbixsetup)
+
+### Overnight PowerAI Job
+
+On Saturday evening, before you leave, feel free to launch a long job on PowerAI that can run overnight. 
+
+Otherwise, if you do not plan to use PowerAI overnight, please shut down your instance to save on costs. 
+
+### Saving Your Work
+
+When you power down your Nimbix Cloud machine, all data in your local directory will be lost. You can use 
+  
+  * sftp
+  * git commits 
+  * File -> Download Jupyter Notebooks to save code from Nimbix. 
 
 
-### Data Location in PowerAI
-
-TODO: Link to Appropriate Box Note
 
 <br>
 
 ## Using Spark Enterprise
 
+Your team's Spark Enterprise master will eventually find a new project in their DSX account. It will be named
 
-### Setup
+  * `<team name>_Enterprise_SETI` or `<team name>_Enterprise_Spare`
 
-  1. Form Team
-  2. Sign up for https://datascience.ibm.com (DSX)
-  3. Register Team with IBM Staff
-    * one account per team
-  4. Find the shared Project in you DSX account
-  5. Use only ONE notebook (one pyspark kernel) at a time in the Enterprise account
-    * Your kernel doesn't die when you close the Notebook --> make sure to call "Stop Kernel" from the project page.
-    * Use your personal free-tier Spark service for prototyping
+[Here are instructions for using DSX if you're not familiar.](DSX-notebook-setup.md)
+
 
 ### Play Nice!
 
 The most important thing to remember when using the Enterprise cluster is that all teams are sharing this cluster with you. Thus, we ask you to play nice.
 
-  * Save data only to your 'team_name' folder, which you must create.
+  * CREATE and SAVE data only to your local 'team_name' folder.
   * Do NOT write to the local `data` directory
 
     ```
     import os
     setidata = os.environ['PWD'] + '/data/seti' #NEVER WRITE TO THIS DIRECTORY
 
-    teamdata = os.environ['PDW'] + '/my_team_name'
-
+    # Create your local team folder
+    teamdata = os.environ['PDW'] + '/team_wombat'
     if os.path.exists(teamdata) is False:
       os.mkdir(teamdata)
     ```
-  * Run only one Notebook on the Enterprise cluster (There is a maximum of 10 pyspark kernels allowed on IBM Spark clusters and we are sharing the cluster across all teams.)
 
-### Data Location
+  * RUN only ONE Notebook on the Enterprise cluster at a time. (There is a maximum of 10 pyspark kernels allowed on IBM Spark clusters and we are sharing clusters across all teams.)
+  * You will eventually need to [save any results to an Object Storage Account to get data from the Spark local file system.](../tutorials/General_move_data_to_from_Object_Storage.ipynb).  You should use you personal Object Storage Account. Here are the steps to get your Object Storage credentials. See Adam, Patrick or Joseph if you need help. 
+
+        1. Log in to https://bluemix.net (use DSX credentials)
+        2. Scroll down and click on an Object Storage instance
+          * Provision a new Object Storage instance if one does not exist
+        3. Select the Service Credentials tab and View Credentials
+        4. Copy these into your notebooks where appropriate.
 
 
-TODO: Link to the Appropriate Box Document OR Step1_Get_Data.ipynb OR separate instructions here. 
+<br>
+
+## Data Location
 
 
-##### Use the filelists
+The `primary_small`, `primary_medium` and `basic` data sets are found in three locations: 
 
-Because the data are stored locally, your executor nodes can directly access the data files.  
+1. Local file space on the Spark Enterprise Clusters in `data/seti`
+2. Shared disk on Nimbix/PowerAI in `/data/set`  (note the leading `/`)
+3. IBM Object Storage with fast network connection to Spark Enterprise Clusters.
 
-Example: 
+[This Notebook demonstrates how to access data from all three locations.](GetData_Hackathon.ipynb) When you're using the Spark Enterprise Clusters, we recommend you first try accessing the data in the local file space. If that becomes problemmatic, switch to using IBM Object Storage.
 
-```
-filecontents = open("data/seti/simsignals_files/public_list_primary_v2_medium_1june_2017.csv").read()
-primary_medium_files = [line.split(',') for line in filecontents.split('\n')]
-primary_medium_files = full_primary_files[1:-1] #strip the header and empty last element
-primary_medium_files = map(lambda x: x[0]+".dat", full_primary_files)  #now list of file names (<uuid>.dat)
+We also recommend that this example notebook be a starting point for your analysis since you can quickly begin to adapt the data retrieval code and perform some operations. 
 
-import zipfile
 
-localMediumFileList = []
-for i in range(0,7):
-  medfilesdata/seti/simsignals_v2_zipped/primary_medium_{}.zip
-
-rdd = sc.parallelize(primary_medium_files, 60)
-datafolder = os.environ['PWD']
-
-def processdata(row):
-  aca = ibmseti.compamp.SimCompamp(open(datafolder + "/" + row, 'r').read())
-  spectrogram = aca.get_spectrogram()
-  features = my_feature_extraction(spectrogram)
-```
+<br>
 
 ## Awards
 
@@ -142,9 +180,9 @@ Your team can take aim at all of the awards in the hackathon. However, in order 
 
 ### Best Classifier
 
-This is the top prize for the weekend. Scoring will be done with the Scoreboard and any method may be used. 
+This is the top prize for the weekend. Scoring will be done [on the main Scoreboard](https://compete.cognitiveclass.ai/event/5931b5814d48c70020ba8abc) and any classification method may be used. 
 
-Judging will be based on the `primary_testset_mini` found in `simsignals_v2_zipped`.
+Judging will be based on the `primary_testset_mini` data set. 
 
 We will only ask the top 2 or 3 teams make a presentation on Sunday to explain their methods (depending on time).
 
@@ -153,48 +191,47 @@ We will only ask the top 2 or 3 teams make a presentation on Sunday to explain t
 This prize focusses on finding the best ways to improve the signal-to-noise ratio of the particular signals of interest. Judging will be done using Watons Visual Recogntion. Teams should focus on finding ways to pre-process the
 time-series data into 2D images (spectrograms most likely, or possibly other representations) in a way that makes each signal class more distinguishable.  Teams will then package their training images into .zip files and construct a custom classifier with IBM Watson Visual Recognition. 
 
-#### This award does NOT use the Scoreboard. 
+See an example in [Step_4_Classify_with_WatsonVR notebook](../tutorials/Step_4_Classify_with_WatsonVR.ipynb).
 
-A separate "test" set is provided for self-scoring. One should not use this 
+Use the Watson VR Key found on your Team Handout. Be sure to use bulk uploads for classification. That is, submit many test set spectrograms as `.zip` files in one API call. (We have only 50,000 HTTP requests to Watson each day.)
 
-Once they have completed the training of their Watson VR custom classifier, teams should measure their classification accuracy with their reserved test set. See the [Step_4_Classify_with_WatsonVR notebook](../tutorials/Step_4_Classify_with_WatsonVR.ipynb).
+[Submit your scores to the appropriate ScoreBoard.](https://compete.cognitiveclass.ai/event/5937199623f594001f1d6c8d)
 
-Teams will present their work and show their final notebook and calculation as verification. As such, this award is based on an honor system and we trust that teams will be respectful. 
-
+In order to win, you must present your methods, and show your code. 
 
 ### Best Classifer without NN or Watson
 
-This is aimed at a combination of signal processing,  smart feature engineering and classification approaches that do not use deep learning / neural nets. 
+This is aimed at a combination of signal processing, smart feature engineering and classification approaches that do not use deep learning / neural nets, such as using SVMs. 
 
-This award is also given based on the honor system. Teams should reserve part of the primary training set
-This is very similar to the "Best Classifer" award in that teams should post their results to the Scoreboard using the `primary_testset_mini` test set. However, make sure to indicate **FUCK*** There needs to be a way for teams to submit multiple results... otherwise, this needs to be done on the honor system as well because teams wouldn't be able to submit   
+[Submit your scores to the appropriate ScoreBoard.](https://compete.cognitiveclass.ai/event/59374590e1965300201e876f)
 
-However, teams will need to briefly present their methods and results. 
+In order to win, you must present your methods, and show your code. 
+
 
 ### Most Interesting / Surprising Analysis
 
-This is a subjective award that will be decided upon by our judging panel of SETI and IBM researchers. As teams present their works, the judging panel will note each team's approach and award this prize to the team that purused a particularly interesting aspect. 
+This is a subjective award that will be decided upon by our judging panel of SETI and IBM researchers. All teams will have the opportunity to present their work even if they do not place a top score. As teams present their works, the judging panel will note each team's approach and award this prize to the team that purused a particularly interesting aspect. 
 
-#### Presentations
+
+### Presentations
 
 Presentations do not need to be highly-polished talks. Please just make one or two slides that highlight the tools and techniques that were employed and then show some example code and results. Aim to keep presentations under 7 minutes long and we'll allow 3 minutes for questions. 
 
 
-## Organize Your Teams
-
-You will have access to one PowerAI system and one Spark Enterprise Cluster. We suggest that you split your team in a way that one subset works on signal processing techniques with the Spark cluster,  another subset focuses on building out a NN on PowerAI and potentially a third subset focuses on different feature extraction techniques that could feed into a classification system.  This way your whole team can potentially submit a result for each contest. Your team should organize, create a plan and periodically check in as a whole to exchange useful code. 
-
-### Overnight PowerAI Job
-
-On Saturday evening, before you leave, feel free to launch a large job on PowerAI that you can set up to run overnight. 
-
-If you do not plan to use PowerAI overnight, we please ask that you shut down your instance to save on costs. 
-
+<br>
 
 ## IBM Developer Works TV
 
-## Saving Your Work
+A videographer will be present during part of the weekend. When you arrive, you were asked to Opt-In (or out-of) a videography and photography waiver. If you are opting out, make sure you have the sticker on your badge. If staged group photos are taken, it is your responsibilty not to be in them.
 
+Hackathon Winners will be offered the chance to be interviewed after the Awards presentations on Sunday. 
+
+The footage captured over the weekend will be used to construct an IBM webpage that is meant to highlight the SETI research and citizen scientist community.  
+
+
+## Help!
+
+We are all here to help and will be available throughout the weekend for any technical or scientific questions. 
 
 
 
