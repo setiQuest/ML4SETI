@@ -17,6 +17,8 @@
    ![Add notebook](../img/dsx/new_notebook.png)
 
 5. Select **Blank**, type in a notebook name and make sure **Python 2**, **Spark 2.0** and **Spark-SETI-Enterprise** are selected. Click **Create Notebook**.
+  
+> You may also select "From URL" and then paste in the GitHub "Raw" URL of an example Notebook in this repository
 
    ![Create notebook](../img/dsx/create_notebook.png)
 
@@ -28,13 +30,13 @@
    
 ### Saving the notebook
 
-Notebooks are perioodically saved. However, to avoid loosing any changes manually save changes by selecting **File** > **Save**.
+Notebooks are perioodically saved. However, to avoid losing any changes manually save changes by selecting **File** > **Save**.
 
    ![Save notebook](../img/dsx/save_notebook.png)
 
 ### Checking the Spark kernel status
 
-You can view the Spark kernel status in the and the project overview.
+You can view the Spark kernel status in the project overview.
 
    ![Check kernel status](../img/dsx/check_kernel_status.png)
 
