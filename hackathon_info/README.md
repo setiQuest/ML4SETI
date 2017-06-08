@@ -210,7 +210,7 @@ time-series data into 2D images (spectrograms most likely, or possibly other rep
 
 See an example in [Step_4_Classify_with_WatsonVR notebook](../tutorials/Step_4_Classify_with_WatsonVR.ipynb).
 
-Use the Watson VR Key found on your Team Handout. Be sure to use bulk uploads for classification. That is, submit many test set spectrograms as `.zip` files in one API call. (We have only 50,000 HTTP requests to Watson each day.)
+Use the Watson VR Key found on your Team Handout. Be sure to use bulk uploads for classification. That is, submit many test set spectrograms archived into `.zip` files in one API call. (We have only 50,000 HTTP requests to Watson each day.)
 
 [Submit your scores to the appropriate ScoreBoard.](https://compete.cognitiveclass.ai/event/5937199623f594001f1d6c8d)
 
@@ -247,16 +247,27 @@ Presentations do not need to be highly-polished talks. Please just make one or t
 
 ## IBM Developer Works TV
 
-A videographer will be present during part of the weekend. When you arrive, you were asked to Opt-In (or out-of) a videography and photography waiver. If you are opting out, make sure you have the sticker on your badge. If staged group photos are taken, it is your responsibilty not to be in them.
+A videographer will be present during part of the weekend. When you arrive, you were asked to Opt-In (or Opt-out) of a videography and photography waiver. If you are opting out, make sure you have the sticker on your badge. If staged group photos are taken, it is your responsibilty not to be in them.
 
-Hackathon Winners will be offered the chance to be interviewed after the Awards presentations on Sunday. 
+Hackathon Winners will be offered the chance to be interviewed after the Awards presentations on Sunday.  Please stick around after the presentations up to 6:30 pm for interviews.
 
 The footage captured over the weekend will be used to construct an IBM webpage that is meant to highlight the SETI research and citizen scientist community.  
 
 
+<br>
+
 ## Help!
 
-We are all here to help and will be available throughout the weekend for any technical or scientific questions. 
+We are all here to help and will be available throughout the weekend for any technical or scientific questions. Find us in the room, or on Slack. You'll probably know who we are, but our badges will also have a colored sticker to indicate organizers!
+
+
+<br>
+
+## Have Fun and Learn Something!
+
+It's been a great learning experience for us so far and we hope you all gain something positive from the weekend. 
+
+
 
 
 
