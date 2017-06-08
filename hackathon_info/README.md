@@ -107,11 +107,13 @@ An IBMer will return your Team Handout to you shortly. It will contain the login
 
 [Your PowerAI master should follow the instructions here to get started.](https://ibm.box.com/v/nimbixsetup)
 
+Try to use the lower-cost Nimbix Cloud machines available during your early stage prototyping.
+
 ### Overnight PowerAI Job
 
 On Saturday evening, before you leave, feel free to launch a long job on PowerAI that can run overnight. 
 
-Otherwise, if you do not plan to use PowerAI overnight, please shut down your instance to save on costs. 
+Otherwise, if you do not plan to use PowerAI overnight, please shut down your instance. 
 
 ### Saving Your Work
 
