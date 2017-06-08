@@ -5,12 +5,16 @@ The following document provides most of the information you need to know at the 
 This information is organized in the order of how the hackathon will proceed. 
 
 
+<br>
+
 ## Team Formation
 
 After breakfast and the opening talks, we'll help you to form teams. 
 
 Once you've identified your teammates, you should determine your team name and identify two representatives for your team. One representative must have an IBM Data Science Experience (DSX) account, who will be the team representative for the Spark Enterprise cluster. The other will be the representative for the PowerAI machine. Choose one team member to bring the team name, the names and email addresses of the two team representatives up to the front where we will register your team on those systems. 
 
+
+<br>
 
 ## Sign on to the Scoreboard
 
@@ -27,6 +31,9 @@ In the interest of time for the hackathon, we'll be using a reduced test data se
 
 Mini Test Set: [https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv](https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv)
 
+
+<br>
+
 ## Team Code Repository
 
 Choose one team member to be the code master. You can make your own GH repo to hold your code, but one suggestion is for the code master to fork our github repository: [https://github.com/setiquest/ml4seti](https://github.com/setiquest/ml4seti) into their own account. You can then use your own fork of this repository as a starting point. You can invite your teammates to collaborate through the repo Settings.
@@ -38,6 +45,15 @@ After you've logged in to your PowerAI system on Nimbix Cloud, we recommend that
 git clone https://github.com/setiQuest/ML4SETI
 ```
 
+
+<br>
+
+## Where to Work
+
+You can use a combination of your laptops, IBM Data Science Experience or the PowerAI systems, or other external cloud providers. It depends on whichever you're most comfortable with -- perhaps you've got a full data science environment set up already on your laptop and wish to start there. Read below though for how to access the computing resources we've gathered for this weekend.  
+
+<br>
+
 ## Setting up PowerAI
 
 [Please follow the instructions here.](https://ibm.box.com/v/setipowerai)
@@ -46,21 +62,12 @@ TODO: include in instructions for team to clone their code repository BEFORE lau
 
 When you access your Jupyter notebook, you should see these tutorials in your local user space, which you can then copy and/or modify. 
 
-### Data Location
 
+### Data Location in PowerAI
 
-There are multiple ways of accessing the data during the hackathon. There are
+TODO: Link to Appropriate Box Note
 
-  * zipped `small` and `medium` primary data sets on both Spark Enterprise and PowerAI
-  * full `primary` data set on Spark Enterprise
-  * data available on Object Storage
-
-
-As such, there are different ways you can write your analysis.
-
-We've created these redundancies to ensure we can work around any potential problems or bottlenecks. 
-
-
+<br>
 
 ## Using Spark Enterprise
 
@@ -69,7 +76,7 @@ We've created these redundancies to ensure we can work around any potential prob
 
   1. Form Team
   2. Sign up for https://datascience.ibm.com (DSX)
-  3. Register Team with Adam
+  3. Register Team with IBM Staff
     * one account per team
   4. Find the shared Project in you DSX account
   5. Use only ONE notebook (one pyspark kernel) at a time in the Enterprise account
@@ -81,37 +88,30 @@ We've created these redundancies to ensure we can work around any potential prob
 The most important thing to remember when using the Enterprise cluster is that all teams are sharing this cluster with you. Thus, we ask you to play nice.
 
   * Save data only to your 'team_name' folder, which you must create.
-  * Do NOT write to the local `data/` directory
+  * Do NOT write to the local `data` directory
 
     ```
     import os
-    setidata = os.environ['PWD'] + '/data'
+    setidata = os.environ['PWD'] + '/data/seti' #NEVER WRITE TO THIS DIRECTORY
+
     teamdata = os.environ['PDW'] + '/my_team_name'
 
     if os.path.exists(teamdata) is False:
       os.mkdir(teamdata)
     ```
-  * Run only one Notebook on the Enterprise cluster (There is a maximum of 10 pyspark kernels allowed on IBM Spark clusters.)
+  * Run only one Notebook on the Enterprise cluster (There is a maximum of 10 pyspark kernels allowed on IBM Spark clusters and we are sharing the cluster across all teams.)
 
 ### Data Location
 
 
-There are multiple ways of accessing the data during the hackathon. There are
-
-  * zipped `small` and `medium` primary data sets on both Spark Enterprise and PowerAI
-  * full `primary` data set on Spark Enterprise
-  * data available on Object Storage
-
-
-As such, there are different ways you can write your analysis.
-
-We've created these redundancies to ensure we can work around any potential problems or bottlenecks. 
-
+TODO: Link to the Appropriate Box Document OR Step1_Get_Data.ipynb OR separate instructions here. 
 
 
 ##### Use the filelists
 
 Because the data are stored locally, your executor nodes can directly access the data files.  
+
+Example: 
 
 ```
 filecontents = open("data/seti/simsignals_files/public_list_primary_v2_medium_1june_2017.csv").read()
@@ -119,13 +119,19 @@ primary_medium_files = [line.split(',') for line in filecontents.split('\n')]
 primary_medium_files = full_primary_files[1:-1] #strip the header and empty last element
 primary_medium_files = map(lambda x: x[0]+".dat", full_primary_files)  #now list of file names (<uuid>.dat)
 
+import zipfile
+
+localMediumFileList = []
+for i in range(0,7):
+  medfilesdata/seti/simsignals_v2_zipped/primary_medium_{}.zip
+
 rdd = sc.parallelize(primary_medium_files, 60)
 datafolder = os.environ['PWD']
 
 def processdata(row):
   aca = ibmseti.compamp.SimCompamp(open(datafolder + "/" + row, 'r').read())
   spectrogram = aca.get_spectrogram()
-
+  features = my_feature_extraction(spectrogram)
 ```
 
 ## Awards
