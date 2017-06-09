@@ -35,7 +35,7 @@ Coalesce into teams that have a mix of the above.
 
 1. Each team member should sign in to the main SETI Hackathon Event at https://compete.cognitiveclass.ai/
 2. Designate on team member to be the team scoreboard master.
-3. [Follow this complete walkthrough for signing on to the Scoreboard.](https://ibm.box.com/v/competitionwalkthrough)
+3. [Follow this complete walkthrough for signing on to the Scoreboard.](https://github.com/setiQuest/ML4SETI/blob/master/hackathon_info/competitions-walkthrough.pdf) ([Alternate download location](https://ibm.box.com/v/competitionwalkthrough)) 
 4. The team master will invite all team members by email and submit scores.
 5. Use the link below to the Mini Test Set to submit an example score
 6. Perform your analysis and submit further results.
