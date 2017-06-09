@@ -2,7 +2,9 @@
 
 The following document provides most of the information you need to know at the hackathon.
 
-
+## Important links:
+* [Agenda](https://github.com/setiQuest/ML4SETI/raw/master/hackathon_info/Attendee%20Agenda.pdf)
+* [Slack](http://ml4seti.mybluemix.net/)
 
 <br>
 
