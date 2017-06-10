@@ -136,17 +136,6 @@ Your team's Spark Enterprise master will eventually find a new project in their 
 The most important thing to remember when using the Enterprise cluster is that all teams are sharing this cluster with you. Thus, we ask you to play nice.
 
   * CREATE and SAVE data only to your local 'team_name' folder.
-  * Do NOT write to the local `data` directory
-
-    ```
-    import os
-    setidata = os.environ['PWD'] + '/data/seti' #NEVER WRITE TO THIS DIRECTORY
-
-    # Create your local team folder
-    teamdata = os.environ['PDW'] + '/team_wombat'
-    if os.path.exists(teamdata) is False:
-      os.mkdir(teamdata)
-    ```
 
   * RUN only ONE Notebook on the Enterprise cluster at a time. (There is a maximum of 10 pyspark kernels allowed on IBM Spark clusters and we are sharing clusters across all teams.)
   * You will eventually need to [save any results to an Object Storage Account to get data from the Spark local file system.](../tutorials/General_move_data_to_from_Object_Storage.ipynb).  You should use you personal Object Storage Account. Here are the steps to get your Object Storage credentials. See Adam, Patrick or Joseph if you need help. 
@@ -162,6 +151,7 @@ The most important thing to remember when using the Enterprise cluster is that a
 
 ## Data Location
 
+Update for Hackathon: We are using the BASIC data set only today!  There are good reasons for this change. 
 
 The data set can be found in IBM object storage: 
 
