@@ -37,18 +37,11 @@ Coalesce into teams that have a mix of the above.
 2. Designate on team member to be the team scoreboard master.
 3. [Follow this complete walkthrough for signing on to the Scoreboard.](https://github.com/setiQuest/ML4SETI/blob/master/hackathon_info/competitions-walkthrough.pdf) ([Alternate download location](https://ibm.box.com/v/competitionwalkthrough)) 
 4. The team master will invite all team members by email and submit scores.
-5. Use the link below to the Mini Test Set to submit an example score
+5. Submit [this example scorecard](https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv) to submit an example score
 6. Perform your analysis and submit further results.
 7. Note that we have 3 scoreboards: Best Classifier, Best Signal Processing, Best Classifier without NN/Watson
 7. Any teammate can submit a result to any of the three Scoreboards
 
-### Mini Test Set
-
-In the interest of time for the hackathon, we'll be using a reduced test data set for scoring. It's about 1/5 the size of the normal primary test set. (In the case of needing a tie break, we'll use more test data.)
-
-Mini Test Set: [example_hackathon_scorecard.csv](https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/example_hackathon_scorecard.csv)
-
-As a test, submit this scorecard to the scoreboard to ensure you're up and running. 
 
 <br>
 
@@ -211,7 +204,9 @@ We will only ask the top 2 or 3 teams make a presentation on Sunday to explain t
 This prize focusses on finding the best ways to improve the signal-to-noise ratio of the particular signals of interest. Judging will be done using Watons Visual Recogntion. Teams should focus on finding ways to pre-process the
 time-series data into 2D images (spectrograms most likely, or possibly other representations) in a way that makes each signal class more distinguishable.  Teams will then package their training images into .zip files and construct a custom classifier with IBM Watson Visual Recognition. 
 
-See an example in [Step_4_Classify_with_WatsonVR notebook](../tutorials/Step_4_Classify_with_WatsonVR.ipynb).
+Start with [Step_2_Build_And_Package_Spectrograms_Hackathon_Spark.ipynb](Step_2_Build_And_Package_Spectrograms_Hackathon_Spark.ipynb).
+
+Then move on to [Classify_With_Watson_Hackathon.ipynb](Classify_With_Watson_Hackathon.ipynb)
 
 Use the Watson VR Key found on your Team Handout. Be sure to use bulk uploads for classification. That is, submit many test set spectrograms archived into `.zip` files in one API call. (We have only 50,000 HTTP requests to Watson each day.)
 
