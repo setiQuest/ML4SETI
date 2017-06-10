@@ -164,7 +164,7 @@ Index: https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c9693
 2. Read each UUID from the file
 3. For each "UUID.dat", retrive that data file from local file space or IBM Object Storage
 
-[This Notebook demonstrates how to access data from all three locations.](GetData_Hackathon.ipynb) When you're using the Spark Enterprise Clusters, we recommend you first try accessing the data in the local file space. If that becomes problemmatic, switch to using IBM Object Storage.
+[This Notebook demonstrates how to access data from all three locations.](Step_1_Hackathon_Data.ipynb) When you're using the Spark Enterprise Clusters, we recommend you first try accessing the data in the local file space. If that becomes problemmatic, switch to using IBM Object Storage.
 
 ### Good Starting Point!
 
