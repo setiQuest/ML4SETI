@@ -170,11 +170,10 @@ The most important thing to remember when using the Enterprise cluster is that a
 ## Data Location
 
 
-The `primary_small`, `primary_medium` and `basic` data sets are found in three locations: 
+The data set can be found in IBM object storage: 
 
-1. Local file space on the Spark Enterprise Clusters in `data/seti`
-2. Shared disk on Nimbix/PowerAI in `/data/set`  (note the leading `/`)
-3. IBM Object Storage with fast network connection to Spark Enterprise Clusters.
+Data: https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_basic_v2/basic4.zip
+Index: https://dal.objectstorage.open.softlayer.com/v1/AUTH_cdbef52bdf7a449c96936e1071f0a46b/simsignals_files/public_list_basic_v2_26may_2017.csv
 
 ### Data Access Strategy
 
@@ -201,7 +200,7 @@ Your team can submit results for all of the contests in the hackathon. However, 
 
 This is the top prize for the weekend. Scoring will be done [on the main Scoreboard](https://compete.cognitiveclass.ai/event/5931b5814d48c70020ba8abc) and any classification method may be used. 
 
-Judging will be based on the `primary_testset_mini` data set. 
+Judging will be based on a data set released EOD Sunday. Teams can submit scores before then (using the publicly available training set) but these will not be considered for judging. 
 
 We will only ask the top 2 or 3 teams make a presentation on Sunday to explain their methods (depending on time).
 
