@@ -1,13 +1,12 @@
 # Getting Started
 
 
-The following tutorials show you how to get start with retrieving and analyzing the SETI data for the hackathon and code challenge. We've used Jupyter Python 2.7 notebooks to create these tutorials. They were written using [IBM Data Science Experience (DSX)](https://datascience.ibm.com). Some of the tutorials use Apache Spark as well (which is provided by DSX).
-However, you don't need IBM DSX to get the data and analyze it.  If you do use a DSX account, the tutorials below will work well in that environment with little configuration needed. A DSX account will provide you with a Spark kernel and Jupyter notebook to get you up and running quickly.  
- 
+The following tutorials show you how to get started: from getting the data to some example analysis.  We intended to make access and analysis as democratic as possible: there's no platform or language requirements to get and analyze the data. However, in the tutorials below, we've used Python 2.7 Jupyter notebooks running on [IBM Data Science Experience (DSX)](https://datascience.ibm.com). Additionally, some of the tutorials use Apache Spark, which is provided by DSX.
+If you do create a DSX account, these tutorials below will work well in that environment with little configuration needed (you will need to install a few additionaly Python packages). A DSX account will provide you with a Spark kernel and Jupyter notebooks to get you up and running quickly.  But these instructions should be instructive enough to get you started in any environment.
 
 ### Tutorials
 
-One thing to note: use Python 2.7 instead of Python 3.5. The `ibmseti` package only installs on 2.x at the moment. 
+One thing to note: The `ibmseti` package, used in some of the steps below, only works on Python 2.7 at the moment. 
 
   * [Step 1: Get Data](tutorials/Step_1_Get_Data.ipynb)
   * [Step 2: Reading Data and Creating Spectrogram](tutorials/Step_2_reading_SETI_code_challenge_data.ipynb)
