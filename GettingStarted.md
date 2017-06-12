@@ -1,8 +1,8 @@
 # Getting Started
 
 
-The following tutorials show you how to get started: from getting the data to some example analysis.  We intended to make access and analysis as democratic as possible: there's no platform or language requirements to get and analyze the data. However, in the tutorials below, we've used Python 2.7 Jupyter notebooks running on [IBM Data Science Experience (DSX)](https://datascience.ibm.com). Additionally, some of the tutorials use Apache Spark, which is provided by DSX.
-If you do create a DSX account, these tutorials below will work well in that environment with little configuration needed (you will need to install a few additionaly Python packages). A DSX account will provide you with a Spark kernel and Jupyter notebooks to get you up and running quickly.  But these instructions should be instructive enough to get you started in any environment.
+The following tutorials show you how to get started: from getting the data to some example analysis.  We intended to make access and analysis as democratic as possible: there's no platform or language requirementsa. However, in the tutorials below, we've used Python 2.7 Jupyter notebooks running on [IBM Data Science Experience (DSX)](https://datascience.ibm.com). Additionally, some of the tutorials use Apache Spark and IBM Object Storage, which are automaticlaly provided by DSX.
+If you do create a DSX account, these tutorials below will work well in that environment with little configuration needed (you will need to install a few additionaly Python packages). But these tutorials should be instructive enough to get you started in any environment.
 
 ### Tutorials
 
