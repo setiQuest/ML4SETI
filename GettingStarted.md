@@ -1,14 +1,13 @@
 # Getting Started
 
-### Sign Up for IBM Data Science Experience
 
-The fastest way to get started, and the best experience, will be if you work from within 
-IBM Data Science Experience (DSX). Go to https://datascience.ibm.com to sign up for an account. When you sign
-up, an IBM Bluemix account will also be created for you (with the same credentials).
+The following tutorials show you how to get start with retrieving and analyzing the SETI data for the hackathon and code challenge. We've used Jupyter Python 2.7 notebooks to create these tutorials. They were written using [IBM Data Science Experience (DSX)](https://datascience.ibm.com). Some of the tutorials use Apache Spark as well (which is provided by DSX).
+However, you don't need IBM DSX to get the data and analyze it.  If you do use a DSX account, the tutorials below will work well in that environment with little configuration needed. A DSX account will provide you with a Spark kernel and Jupyter notebook to get you up and running quickly.  
+ 
 
 ### Tutorials
 
-From IBM DSX, you can begin to access the data by running the introductory notebooks. One thing to note: use Python 2.7 instead of Python 3.5. The `ibmseti` package only installs on 2.x at the moment. 
+One thing to note: use Python 2.7 instead of Python 3.5. The `ibmseti` package only installs on 2.x at the moment. 
 
   * [Step 1: Get Data](tutorials/Step_1_Get_Data.ipynb)
   * [Step 2: Reading Data and Creating Spectrogram](tutorials/Step_2_reading_SETI_code_challenge_data.ipynb)
