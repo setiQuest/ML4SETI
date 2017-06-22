@@ -9,6 +9,7 @@ If you do create a DSX account, these tutorials below will work well in that env
 One thing to note: The `ibmseti` package, used in some of the steps below, only works on Python 2.7 at the moment. 
 
   * [Step 1: Get Data](tutorials/Step_1_Get_Data.ipynb)
+  * [Step 1b: Get Full Data Set Quickly](tutorials/Step_1b_Full_Data_Download.md)
   * [Step 2: Reading Data and Creating Spectrogram](tutorials/Step_2_reading_SETI_code_challenge_data.ipynb)
   * [Step 2b: List of Signal Classes](tutorials/Step_2b_List_Of_Signal_Classes.ipynb)
   * [Step 3: Build PNG Files](tutorials/Step_3_Build_Set_Of_PNG_Files.ipynb)
