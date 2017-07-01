@@ -29,7 +29,7 @@ One thing to note: The `ibmseti` package, used in some of the steps below, only 
 
 ### Judging
 
-See the [JudgingCriteria](Judging_Criteria.ipynb) document
+See the [JudgingCriteria](Judging_Criteria.ipynb) document for information on setting up your team and submitting a score card to the Scoreboard.
 
 ### BUGS
 
