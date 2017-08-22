@@ -8,10 +8,10 @@ This page has been updated to reflect that the June 1 - July 31, 2017 code chall
 official code challenge is over, we will keep the data sets, test sets and scoreboards available for
 those that are interested in posting scores for fun.  
 
-Additionally, we may consider updating the data sets in the future if we wish to add new signal classes or change
-other properties of the simulations to make things more challenging. 
+If a team or individual manages to post a score to the Final scoreboard that beats the code challenge winner, we would be very interested to learn how those results were achieved. 
 
 In order to view this repository in its state on July 31, 2017 at the conclusion of the code challenge, please [browse at tag 1.0.0](https://github.com/setiQuest/ML4SETI/tree/1.0.0).
+
 
 
 ## Introduction 
@@ -84,13 +84,11 @@ citizen scientists to get involved in research that is normally out of their rea
 ### The Code Challenge
  
 The challenge is to build a classification system based on a large body of simulated (and labeled)
-data that we have constructed. You may obtain the raw data for hundreds of thousands of signals, 
-similar to the ones you see above. There is a preview and final test set that you may use to measure the performance of your model.  
- 
+data that we have constructed. While our set of simulated data does not span the full range of types of signals observed at the ATA, or the complexity, it is a good starting point for building useful classification tools.  
 
 ## Get Started
 
-The [Getting Started page](https://github.com/setiQuest/ML4SETI/blob/master/GettingStarted.md) will show you how to download the data, read the data into spectrograms, potentially extract features and pass the spectrogram to various classification tools, such as IBM Watson Visual Recognition or 
+The [Getting Started page](https://github.com/setiQuest/ML4SETI/blob/master/GettingStarted.md) will show you how to download the data, read the data into spectrograms, extract features (if you wish) and pass the spectrogram to various classification tools, such as IBM Watson Visual Recognition or 
 a neural network using TensorFlow. 
 
 You may also wish to start with one of the models produced by the teams listed in the Introduction.
@@ -103,20 +101,14 @@ The scoreboards contain scores from the code challenge -- can you beat them?!
 
 ## Local Scoring
 
-Finally, the Preview Test Set key is now available in this repository, along with some `sklearn` code that will
-produce the LogLoss score and classification accuracy scores for you. There is a jupyter notebook and files in the [results](results/) folder to get you started. 
+The Preview Test Set key (UUID, class label pairs) is now available in this repository, along with some `sklearn` code that will
+produce the LogLoss score, confusion matrix and classification accuracy scores for you. There is a jupyter notebook and files in the [results](results/) folder to get you started. 
 
 ## Teamwork
 
 To facilitate team-building and communication we have created a Slack team that you may join.  
 
 [Sign up for the Slack team here.](https://ml4seti.mybluemix.net)
-
-
-## Licensing
-
-In order to participate in the code challenge and hackathon, your code must be open-source and licenced under 
-the Apache License 2.0. 
 
 
 
