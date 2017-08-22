@@ -2,7 +2,7 @@
 #### Machine Learning 4 the Search for Extra Terrestrial Intelligence (http://www.seti.org/ml4seti)
 
 
-## Update: Aug 10 2017
+## Update: Aug 22 2017
 
 This page has been updated to reflect that the June 1 - July 31, 2017 code challenge has completed. While the 
 official code challenge is over, we will keep the data sets, test sets and scoreboards available for
