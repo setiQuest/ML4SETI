@@ -10,7 +10,7 @@ those that are interested in posting scores for fun.
 
 If a team or individual manages to post a score to the Final scoreboard that beats the code challenge winner, we would be very interested to learn how those results were achieved. 
 
-In order to view this repository in its state on July 31, 2017 at the conclusion of the code challenge, please [browse at tag 1.0.0](https://github.com/setiQuest/ML4SETI/tree/1.0.0).
+In order to view this repository in its state on July 31, 2017 at the conclusion of the code challenge, please [browse at tag 1.1.0](https://github.com/setiQuest/ML4SETI/tree/1.1.0).
 
 
 
