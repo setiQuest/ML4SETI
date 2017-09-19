@@ -6,7 +6,7 @@ If you do create a DSX account, these tutorials below will work well in that env
 
 ### Tutorials
 
-One thing to note: The `ibmseti` package, used in some of the steps below, only works on Python 2.7 at the moment. 
+One thing to note: The `ibmseti` package released version 1.0.5, used in some of the steps below, only works on Python 2.7 at the moment. If you need Pythonn 3 support, `pip install ibmseti==2.0.0.dev5`
 
   * [Step 1: Get Data](tutorials/Step_1_Get_Data.ipynb)
   * [Step 1b: Get Full Data Set Quickly](tutorials/Step_1b_Full_Data_Download.md)
