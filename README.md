@@ -38,7 +38,7 @@ Instructions for installing the necessary software to run these models [are foun
 
 Additionally, two Jupyter notebooks (tested to work on IBM Data Science Experience) demonstrate these models:
 
-  * [Effsubsee](results/effusbsee_seti_code_challenge_1stPlace.ipynb)
+  * [Effsubsee](results/effsubsee_seti_code_challenge_1stPlace.ipynb)
   * [Signet](results/signet_seti_code_challenge_2ndPlace.ipynb)
 
 
