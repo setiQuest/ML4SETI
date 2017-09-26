@@ -34,6 +34,13 @@ You can read more about the neural-network architectures these teams employed:
   * [Effsubsee](https://github.com/sgrvinod/ml4seti-Effsubsee)
   * [Signet](https://github.com/sagelywizard/ml4seti)
 
+Instructions for installing the necessary software to run these models [are found here](https://gist.github.com/gadamc/dc1f4aac3c637a7ab1c2542c85772d03). 
+
+Additionally, two Jupyter notebooks (tested to work on IBM Data Science Experience) demonstrate these models:
+
+  * [Effsubsee](results/effusbsee_seti_code_challenge_1stPlace.ipynb)
+  * [Signet](results/signet_seti_code_challenge_2ndPlace.ipynb)
+
 
 ## Contents
 
