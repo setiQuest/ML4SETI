@@ -17,8 +17,8 @@ One thing to note: The `ibmseti` package released version 1.0.5, used in some of
   * Step 5: TensorFlow and Neural Nets
     - [A: Intro to Tensorflow](tutorials/Step_5a_Intro_To_Tensor_Flow.ipynb)
     - [B: Understanding Convolutional Neural Nets](tutorials/Step_5b_Underestanding_CNN.ipynb)
-    - [C: Convert SETI data to Binary Files](tutorials/Step_5c_Convert_TS_to_Binary.ipynb)
-    - [D: Build CNN in Tensorflow](tutorials/Step_5d_Build_CNN_Tf.ipynb)
+    - [C: Convert SETI data to Binary Files](tutorials/Step_5c_Convert_TS_to_unit8Dataset_DSX.ipynb)
+    - [D: Build CNN in Tensorflow](tutorials/Step_5d_Build_CNN_Tf_DSX.ipynb)
 
 
 ### Other Information
