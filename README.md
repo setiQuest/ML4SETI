@@ -18,9 +18,9 @@ In order to view this repository in its state on July 31, 2017 at the conclusion
 The `ibmseti` Python package is useful to read the simulated data sets in this code challenge (as well as the 
 real SETI data availabe via the SETI@IBMCloud project).  
 
-Version `1.0.5` supports only Python 2.6 and is the still the latest stable release. It can be installed with `pip install ibmseti`. 
+Version `1.0.5` supports only Python 2.7 and is the still the latest stable release. It can be installed with `pip install ibmseti`. 
 
-Version `2.0.0.dev5` supports both Python 2.6 and 3.5. You can install this by explicitly stating the version number `pip install ibmseti==2.0.0.dev5`
+Version `2.0.0.dev5` supports both Python 2.7 and 3.5. You can install this by explicitly stating the version number `pip install ibmseti==2.0.0.dev5`
 
 
 ## Introduction 
