@@ -9,6 +9,7 @@ If you do create a DSX account, these tutorials below will work well in that env
 One thing to note: The `ibmseti` package released version 1.0.5, used in some of the steps below, only works on Python 2.7 at the moment. If you need Pythonn 3 support, `pip install ibmseti==2.0.0.dev5`
 
   * [Step 1: Get Data](tutorials/Step_1_Get_Data.ipynb)
+    - The data in the Step 1 notebook contains 35k simulated signals. You can preform various kinds of data augmentation techniques to increase the size of this data set. However, if you need more, [you can also simulated them yourself with the recently open-sourced simulation code.](https://github.com/setiQuest/seti_signal_sim)
   * [Step 2: Reading Data and Creating Spectrogram](tutorials/Step_2_reading_SETI_code_challenge_data.ipynb)
   * [Step 2b: List of Signal Classes](tutorials/Step_2b_List_Of_Signal_Classes.ipynb)
   * [Step 3: Build PNG Files](tutorials/Step_3_Build_Set_Of_PNG_Files.ipynb)
