@@ -34,13 +34,13 @@
    
 ### Saving the notebook
 
-Notebooks are perioodically saved. However, to avoid loosing any changes manually save changes by selecting **File** > **Save**.
+Notebooks are periodically saved. However, to avoid loosing any changes manually save changes by selecting **File** > **Save**.
 
    ![Save notebook](../img/dsx/clone_notebook/save_notebook.png)
 
 ### Checking the Spark kernel status
 
-You can view the Spark kernel status in the and the project overview.
+You can view the Spark kernel status and the project overview.
 
    ![Check kernel status](../img/dsx/clone_notebook/check_kernel_status.png)
 
